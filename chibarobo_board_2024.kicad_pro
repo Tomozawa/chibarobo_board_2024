@@ -406,6 +406,14 @@
     [
       "b1a79de5-687b-49d3-9656-69f23293985f",
       "EMS"
+    ],
+    [
+      "fef27ad3-eae6-49bb-8c5d-9629d20c8dec",
+      "SoftStart"
+    ],
+    [
+      "87bef607-8228-4982-a851-4bb1999413f0",
+      "MainSwitch"
     ]
   ],
   "text_variables": {}

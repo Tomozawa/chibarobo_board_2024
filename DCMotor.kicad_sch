@@ -492,6 +492,126 @@
 				)
 			)
 		)
+		(symbol "power:+BATT"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -738,126 +858,6 @@
 			(symbol "GNDPWR_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:VCC"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
 					(length 0)
 					(name "~"
 						(effects
@@ -1198,72 +1198,6 @@
 		(uuid "dbfea8a7-1048-40e1-89cd-dc734a2dc1b6")
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 40.64 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0025c6a2-1373-4548-a901-a4f6192904d2")
-		(property "Reference" "#PWR032"
-			(at 40.64 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 40.64 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 40.64 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e79b7479-133a-43d1-a933-8cca7ab9257b")
-		)
-		(instances
-			(project ""
-				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 171.45 58.42 90)
 		(unit 1)
@@ -1341,7 +1275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b936524-7c01-4007-8661-d041dce1bb00")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR055"
 			(at 72.39 49.53 0)
 			(effects
 				(font
@@ -1391,7 +1325,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd"
-					(reference "#PWR047")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -1407,7 +1341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f99cc75-d723-43fa-9137-659d1efa0e82")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR052"
 			(at 40.64 49.53 0)
 			(effects
 				(font
@@ -1457,7 +1391,7 @@
 		(instances
 			(project ""
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd"
-					(reference "#PWR038")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -1473,7 +1407,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "100895dd-aa4a-4aa0-bb5b-edb3f2ff2e25")
-		(property "Reference" "J8"
+		(property "Reference" "J11"
 			(at 109.22 44.4501 0)
 			(effects
 				(font
@@ -1527,7 +1461,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd"
-					(reference "J8")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -1543,7 +1477,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "239df02d-286f-4aa5-a1b6-25e3f81e4515")
-		(property "Reference" "J14"
+		(property "Reference" "J13"
 			(at 185.42 59.6901 0)
 			(effects
 				(font
@@ -1600,7 +1534,73 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd"
-					(reference "J14")
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 40.64 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39bbc8de-a556-4b31-b145-8b560273e40e")
+		(property "Reference" "#PWR051"
+			(at 40.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 40.64 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 40.64 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cdef30c-f90d-4f1d-8e66-d8b853b063fb")
+		)
+		(instances
+			(project ""
+				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -1669,72 +1669,6 @@
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd"
 					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 102.87 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47bb3cd1-7f2d-40ec-90ce-55ce77ccf9a8")
-		(property "Reference" "#PWR048"
-			(at 102.87 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 102.87 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 102.87 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15c4c3f9-c6f5-486d-841c-649acf29b703")
-		)
-		(instances
-			(project "chibarobo_board_2024"
-				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -1886,7 +1820,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54039a04-67ad-479e-8cd8-56e8c912315a")
-		(property "Reference" "J11"
+		(property "Reference" "J8"
 			(at 46.99 59.6901 0)
 			(effects
 				(font
@@ -1943,7 +1877,7 @@
 		(instances
 			(project ""
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd"
-					(reference "J11")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -1959,7 +1893,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57e2ae88-72b3-43ff-88f6-20578de34880")
-		(property "Reference" "J13"
+		(property "Reference" "J12"
 			(at 139.7 59.6901 0)
 			(effects
 				(font
@@ -2016,7 +1950,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd"
-					(reference "J13")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -2032,7 +1966,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b013c27-32dd-4304-8a4c-c61e8b2bd4ba")
-		(property "Reference" "J7"
+		(property "Reference" "J9"
 			(at 78.74 44.4501 0)
 			(effects
 				(font
@@ -2086,7 +2020,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd"
-					(reference "J7")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -2170,7 +2104,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6831d4f7-ce5d-40fd-94d4-5ae10afaeb2e")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 46.99 44.4501 0)
 			(effects
 				(font
@@ -2224,7 +2158,7 @@
 		(instances
 			(project ""
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -2367,17 +2301,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 72.39 41.91 0)
+		(lib_id "power:+BATT")
+		(at 102.87 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "880bb1e1-e66d-484d-b043-63251b1b8b28")
-		(property "Reference" "#PWR046"
-			(at 72.39 45.72 0)
+		(uuid "866b19b2-d911-4518-9357-0db25b490c41")
+		(property "Reference" "#PWR057"
+			(at 102.87 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2385,8 +2319,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 72.39 36.83 0)
+		(property "Value" "+BATT"
+			(at 102.87 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2394,7 +2328,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 41.91 0)
+			(at 102.87 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2403,7 +2337,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 41.91 0)
+			(at 102.87 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,8 +2345,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 72.39 41.91 0)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 102.87 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,12 +2355,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4a65da5d-de34-419a-a644-6a2faca81836")
+			(uuid "1cdef30c-f90d-4f1d-8e66-d8b853b063fc")
 		)
 		(instances
-			(project "chibarobo_board_2024"
+			(project ""
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd"
-					(reference "#PWR046")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -2442,7 +2376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e2d0598-ad23-4817-a0a1-3f5888288dd6")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR060"
 			(at 179.07 67.31 0)
 			(effects
 				(font
@@ -2492,7 +2426,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd"
-					(reference "#PWR057")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -2508,7 +2442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e4b56f1-1d28-4e9d-acd3-ab81357bf15e")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR058"
 			(at 102.87 49.53 0)
 			(effects
 				(font
@@ -2558,7 +2492,73 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd"
-					(reference "#PWR049")
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 72.39 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "954c44dd-60c8-43ea-9a0f-6835aa70a8a5")
+		(property "Reference" "#PWR054"
+			(at 72.39 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 72.39 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 72.39 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cdef30c-f90d-4f1d-8e66-d8b853b063fd")
+		)
+		(instances
+			(project ""
+				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -2574,7 +2574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1e9fb49-cd58-496d-aa45-3e93076476bf")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR056"
 			(at 86.36 67.31 0)
 			(effects
 				(font
@@ -2624,7 +2624,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd"
-					(reference "#PWR055")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -2640,7 +2640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5331db3-6386-43f3-a9df-aa983daa09b3")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR061"
 			(at 223.52 67.31 0)
 			(effects
 				(font
@@ -2690,7 +2690,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd"
-					(reference "#PWR058")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -2706,7 +2706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a92055f9-e227-4c81-959d-286385d0d896")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR053"
 			(at 40.64 67.31 0)
 			(effects
 				(font
@@ -2756,7 +2756,7 @@
 		(instances
 			(project ""
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd"
-					(reference "#PWR054")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -2772,7 +2772,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf4797ed-6319-4e47-ad27-171e1d2fe140")
-		(property "Reference" "J15"
+		(property "Reference" "J14"
 			(at 229.87 59.6901 0)
 			(effects
 				(font
@@ -2829,7 +2829,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd"
-					(reference "J15")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -2845,7 +2845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3336c15-8244-40bd-86fc-6229c27b0339")
-		(property "Reference" "R28"
+		(property "Reference" "R27"
 			(at 33.02 49.53 90)
 			(effects
 				(font
@@ -2897,7 +2897,7 @@
 		(instances
 			(project ""
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd"
-					(reference "R28")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -2913,7 +2913,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6b50fb1-25bf-44f3-ab40-ba4e6bdfcec3")
-		(property "Reference" "J12"
+		(property "Reference" "J10"
 			(at 92.71 59.6901 0)
 			(effects
 				(font
@@ -2970,7 +2970,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd"
-					(reference "J12")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -3054,7 +3054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1ed093c-6551-4e9f-93c6-9cb5817bc393")
-		(property "Reference" "R27"
+		(property "Reference" "R28"
 			(at 33.02 52.07 90)
 			(effects
 				(font
@@ -3106,7 +3106,7 @@
 		(instances
 			(project ""
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd"
-					(reference "R27")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -3122,7 +3122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa979047-e54f-4389-b8ef-03776a7455fb")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR059"
 			(at 133.35 67.31 0)
 			(effects
 				(font
@@ -3172,7 +3172,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd"
-					(reference "#PWR056")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)

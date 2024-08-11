@@ -1,4 +1,4 @@
-23591895859486866
+23603957847850548
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88739,6 +88739,13 @@ Integrated Circuit
 8
 8
 SamacSys_Parts
+NJM78L05UA
+NJM78L05UA-6
+Integrated Circuit
+0
+4
+4
+SamacSys_Parts
 QFN50P500X500X80-29N-D
 QFN28
 Integrated Circuit
@@ -88762,6 +88769,20 @@ Integrated Circuit
 SamacSys_Parts
 SOIC127P680X200-8N
 DMP8
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+SOIC127P780X190-14N
+SOP14-P-300-1.27A
+Integrated Circuit
+0
+14
+14
+SamacSys_Parts
+SOP50P310X90-8N
+SSOP8-P-0.50
 Integrated Circuit
 0
 8
@@ -88816,8 +88837,22 @@ Transistor BJT PNP
 3
 3
 SamacSys_Parts
+TO225P972X240-3N
+TO225P972X240-3N
+Integrated Circuit
+0
+3
+3
+SamacSys_Parts
 TO254P469X1042X1967-3P
 TO-220AB
+Integrated Circuit
+0
+3
+3
+SamacSys_Parts
+TO270P460X1020X2008-3P
+TO-220 TYPE A
 Integrated Circuit
 0
 3
@@ -96572,6 +96607,13 @@ Varistor VF
 2
 2
 original
+AMASS_XT90PW-M_1x02_P11.00mm_Horizontal
+
+
+0
+4
+2
+original
 BH-321-2P
 
 
@@ -96641,3 +96683,10 @@ USB_A_JingExtensiton_908-362A1011D10110_Horizontal
 0
 8
 5
+original
+V23134J1052D642
+
+
+0
+4
+4
