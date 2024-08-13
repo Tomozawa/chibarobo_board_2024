@@ -1,4 +1,4 @@
-23603957847850548
+23614300443993714
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88690,6 +88690,13 @@ Transistor
 3
 3
 SamacSys_Parts
+60B104C
+60B104C-1
+Inductor
+0
+2
+2
+SamacSys_Parts
 CAPAE660X610N
 6.3*6.1
 Capacitor Polarised
@@ -88725,6 +88732,13 @@ Variable Resistor
 3
 3
 SamacSys_Parts
+IRFR014TRPBFBE3
+IRFR014TRPBF-BE3-1
+MOSFET (N-Channel)
+0
+3
+3
+SamacSys_Parts
 L8050QLT1G
 L8050QLT1G-1
 Integrated Circuit
@@ -88752,6 +88766,13 @@ Integrated Circuit
 0
 29
 29
+SamacSys_Parts
+SMT_4.2X3.2_
+SMT(4.2x3.2)
+Switch
+0
+4
+4
 SamacSys_Parts
 SOD3716X135N
 SOD-123 (Thickness 1.35mm)
@@ -88788,6 +88809,13 @@ Integrated Circuit
 8
 8
 SamacSys_Parts
+SOT50P160X90-3N
+SC-75 SOT-416 CASE 463-01 ISSUE F
+Transistor
+0
+3
+3
+SamacSys_Parts
 SOT65P210X110-5N
 SC70 1MM (C5)
 Integrated Circuit
@@ -88815,6 +88843,20 @@ Integrated Circuit
 0
 5
 5
+SamacSys_Parts
+SOT95P280X95-6N
+TSM3446CX6
+Undefined or Miscellaneous
+0
+6
+6
+SamacSys_Parts
+SOT230P700X180-4N
+SOT-223_
+MOSFET (N-Channel)
+0
+4
+4
 SamacSys_Parts
 SR0502CTG
 SOT-143

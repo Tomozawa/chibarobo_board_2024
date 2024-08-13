@@ -5,6 +5,151 @@
 	(uuid "e741f8a5-9519-43a7-b27f-9360360ce858")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:D_Zener"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -331,15 +476,15 @@
 				)
 			)
 		)
-		(symbol "SamacSys_Parts:D44H8"
+		(symbol "SamacSys_Parts:IRFR014TRPBF-BE3"
 			(pin_names
 				(offset 0.762)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
-				(at 16.51 7.62 0)
+			(property "Reference" "Q"
+				(at 11.43 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -347,8 +492,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "D44H8"
-				(at 16.51 5.08 0)
+			(property "Value" "IRFR014TRPBF-BE3"
+				(at 11.43 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -356,18 +501,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "TO270P460X1020X2008-3P"
-				(at 16.51 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.st.com/web/en/resource/technical/document/datasheet/CD00000942.pdf"
-				(at 16.51 0 0)
+			(property "Footprint" "IRFR014TRPBFBE3"
+				(at 11.43 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -376,7 +511,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "D44H8, NPN Bipolar Transistor,  20 A 60 V HFE:40 Power, 3-Pin TO-220"
+			(property "Datasheet" "https://www.vishay.com/docs/91263/sihfr014.pdf"
+				(at 11.43 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "MOSFET 60V  N-CHANNEL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -385,8 +530,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "D44H8, NPN Bipolar Transistor,  20 A 60 V HFE:40 Power, 3-Pin TO-220"
-				(at 16.51 -2.54 0)
+			(property "Description_1" "MOSFET 60V  N-CHANNEL"
+				(at 11.43 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -395,8 +540,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "4.6"
-				(at 16.51 -5.08 0)
+			(property "Height" "2.507"
+				(at 11.43 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -405,8 +550,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "STMicroelectronics"
-				(at 16.51 -7.62 0)
+			(property "Manufacturer_Name" "Vishay"
+				(at 11.43 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -415,8 +560,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "D44H8"
-				(at 16.51 -10.16 0)
+			(property "Manufacturer_Part_Number" "IRFR014TRPBF-BE3"
+				(at 11.43 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -425,8 +570,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "511-D44H8"
-				(at 16.51 -12.7 0)
+			(property "Mouser Part Number" "78-IRFR014TRPBF-BE3"
+				(at 11.43 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -435,8 +580,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/D44H8?qs=ljbEvF4DwONt4FcefrkZlQ%3D%3D"
-				(at 16.51 -15.24 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/IRFR014TRPBF-BE3?qs=7MVldsJ5UaxgWaRO4gEQGA%3D%3D"
+				(at 11.43 -19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -445,8 +590,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" "D44H8"
-				(at 16.51 -17.78 0)
+			(property "Arrow Part Number" "IRFR014TRPBF-BE3"
+				(at 11.43 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -455,8 +600,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/d44h8/stmicroelectronics?region=europe"
-				(at 16.51 -20.32 0)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/irfr014trpbf-be3/vishay"
+				(at 11.43 -24.13 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -465,11 +610,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "D44H8_0_0"
+			(symbol "IRFR014TRPBF-BE3_0_0"
 				(pin passive line
 					(at 0 0 0)
-					(length 5.08)
-					(name "B"
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -485,9 +630,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "C"
+					(at 7.62 10.16 270)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -503,9 +648,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "E"
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -521,13 +666,132 @@
 					)
 				)
 			)
-			(symbol "D44H8_0_1"
+			(symbol "IRFR014TRPBF-BE3_0_1"
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -7.62) (xy 5.08 -7.62) (xy 5.08 2.54)
+						(xy 5.842 -0.508) (xy 5.842 0.508)
 					)
 					(stroke
 						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.032) (xy 5.842 3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 5.588) (xy 5.842 4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.842 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.54) (xy 6.858 3.048) (xy 6.858 2.032) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 6.35 2.54)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
 						(type solid)
 					)
 					(fill
@@ -820,22 +1084,28 @@
 		(uuid "05b3695b-d1d2-4af1-91c7-ce342330c80d")
 	)
 	(junction
-		(at 133.35 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18ca7b43-72a9-43f4-80a2-901091e2f0ac")
-	)
-	(junction
 		(at 76.2 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48e859ff-b983-4a00-9452-f7c57080b6ac")
 	)
 	(junction
-		(at 182.88 106.68)
+		(at 177.8 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc48db42-ddf0-4841-ac8a-45959242c524")
+	)
+	(junction
+		(at 124.46 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd9c8eef-d630-4558-98db-44459fa4ebc7")
+	)
+	(junction
+		(at 133.35 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed01d8d1-c864-4f74-8a9a-169f914c5871")
 	)
 	(wire
 		(pts
@@ -869,17 +1139,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 86.36) (xy 182.88 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "385c33ef-38e7-4ffe-8434-80725d281132")
-	)
-	(wire
-		(pts
-			(xy 182.88 106.68) (xy 182.88 115.57)
+			(xy 177.8 106.68) (xy 177.8 115.57)
 		)
 		(stroke
 			(width 0)
@@ -909,7 +1169,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 91.44) (xy 182.88 106.68)
+			(xy 177.8 91.44) (xy 177.8 106.68)
 		)
 		(stroke
 			(width 0)
@@ -919,7 +1179,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 106.68) (xy 182.88 106.68)
+			(xy 171.45 106.68) (xy 177.8 106.68)
 		)
 		(stroke
 			(width 0)
@@ -939,7 +1199,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 88.9) (xy 182.88 88.9)
+			(xy 168.91 76.2) (xy 177.8 76.2)
 		)
 		(stroke
 			(width 0)
@@ -969,6 +1229,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 86.36) (xy 170.18 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5ddf388-b785-4163-a04e-29462ff8b3a9")
+	)
+	(wire
+		(pts
 			(xy 54.61 106.68) (xy 62.23 106.68)
 		)
 		(stroke
@@ -976,6 +1246,26 @@
 			(type default)
 		)
 		(uuid "d25c7c7a-908b-4cb5-8e8d-8269d10d1596")
+	)
+	(wire
+		(pts
+			(xy 124.46 106.68) (xy 124.46 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea921560-1f27-4d2d-83ac-efe0d6ab0643")
+	)
+	(wire
+		(pts
+			(xy 124.46 119.38) (xy 124.46 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eabacc73-a616-45d2-9746-ed0f65175ac6")
 	)
 	(wire
 		(pts
@@ -1007,7 +1297,7 @@
 		)
 		(uuid "fec064c3-fb84-43bf-bcbd-3d27b765415e")
 	)
-	(hierarchical_label "LOGPWR"
+	(hierarchical_label "SAFE_+BATT"
 		(shape input)
 		(at 124.46 62.23 90)
 		(fields_autoplaced yes)
@@ -1017,7 +1307,7 @@
 			)
 			(justify left)
 		)
-		(uuid "554d2c4d-6dad-4d45-b2d7-d67cf78543b6")
+		(uuid "011083c4-ffb3-4f19-bdf5-4e42986ea343")
 	)
 	(hierarchical_label "~{SS}"
 		(shape input)
@@ -1033,7 +1323,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 182.88 119.38 0)
+		(at 177.8 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1042,7 +1332,7 @@
 		(fields_autoplaced yes)
 		(uuid "0166921a-af74-4642-a145-5d1a3b7756c1")
 		(property "Reference" "R58"
-			(at 185.42 118.1099 0)
+			(at 180.34 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1050,8 +1340,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5"
-			(at 185.42 120.6499 0)
+		(property "Value" "1.3"
+			(at 180.34 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1059,8 +1349,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 181.102 119.38 90)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 176.022 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1069,7 +1359,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 119.38 0)
+			(at 177.8 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1078,7 +1368,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 182.88 119.38 0)
+			(at 177.8 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1096,6 +1386,161 @@
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/fef27ad3-eae6-49bb-8c5d-9629d20c8dec"
 					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:IRFR014TRPBF-BE3")
+		(at 170.18 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02d651f3-ae9b-459d-9b89-bc2e0fcf5f4c")
+		(property "Reference" "Q2"
+			(at 181.61 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRFR014TRPBF-BE3"
+			(at 181.61 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:IRFR014TRPBFBE3"
+			(at 181.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/91263/sihfr014.pdf"
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET 60V  N-CHANNEL"
+			(at 170.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "MOSFET 60V  N-CHANNEL"
+			(at 181.61 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.507"
+			(at 181.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 181.61 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IRFR014TRPBF-BE3"
+			(at 181.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-IRFR014TRPBF-BE3"
+			(at 181.61 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/IRFR014TRPBF-BE3?qs=7MVldsJ5UaxgWaRO4gEQGA%3D%3D"
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "IRFR014TRPBF-BE3"
+			(at 181.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/irfr014trpbf-be3/vishay"
+			(at 181.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17bb9951-18f7-48ce-9ce0-21da263bf598")
+		)
+		(pin "2"
+			(uuid "2b37b463-b109-4e11-a9e5-df48001c37f7")
+		)
+		(pin "3"
+			(uuid "f51f85bd-4883-4009-a986-9a4fc361317d")
+		)
+		(instances
+			(project ""
+				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/fef27ad3-eae6-49bb-8c5d-9629d20c8dec"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -1391,161 +1836,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:D44H8")
-		(at 182.88 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28b39442-1328-4022-90af-24acbb6bbc2b")
-		(property "Reference" "IC6"
-			(at 199.39 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D44H8"
-			(at 199.39 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:TO270P460X1020X2008-3P"
-			(at 199.39 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/web/en/resource/technical/document/datasheet/CD00000942.pdf"
-			(at 199.39 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "D44H8, NPN Bipolar Transistor,  20 A 60 V HFE:40 Power, 3-Pin TO-220"
-			(at 182.88 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "D44H8, NPN Bipolar Transistor,  20 A 60 V HFE:40 Power, 3-Pin TO-220"
-			(at 199.39 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "4.6"
-			(at 199.39 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 199.39 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "D44H8"
-			(at 199.39 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "511-D44H8"
-			(at 199.39 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/D44H8?qs=ljbEvF4DwONt4FcefrkZlQ%3D%3D"
-			(at 199.39 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "D44H8"
-			(at 199.39 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/d44h8/stmicroelectronics?region=europe"
-			(at 199.39 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5a33677b-5a1e-46b8-b0b6-82c553262495")
-		)
-		(pin "3"
-			(uuid "56d21ec3-4744-4ac9-948f-b7a3352c49c1")
-		)
-		(pin "1"
-			(uuid "e98a867d-67d0-4638-84a6-917a4548ec29")
-		)
-		(instances
-			(project "chibarobo_board_2024"
-				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/fef27ad3-eae6-49bb-8c5d-9629d20c8dec"
-					(reference "IC6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SamacSys_Parts:2SC2712-GR_TE85L,F")
 		(at 171.45 106.68 0)
 		(mirror y)
@@ -1700,7 +1990,7 @@
 	)
 	(symbol
 		(lib_id "power:-BATT")
-		(at 182.88 123.19 180)
+		(at 177.8 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1709,7 +1999,7 @@
 		(fields_autoplaced yes)
 		(uuid "69e0a384-4f04-4182-a09c-6f2025b62e70")
 		(property "Reference" "#PWR096"
-			(at 182.88 119.38 0)
+			(at 177.8 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,7 +2008,7 @@
 			)
 		)
 		(property "Value" "-BATT"
-			(at 182.88 128.27 0)
+			(at 177.8 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1726,7 +2016,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 123.19 0)
+			(at 177.8 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1735,7 +2025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 123.19 0)
+			(at 177.8 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1744,7 +2034,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 182.88 123.19 0)
+			(at 177.8 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1899,17 +2189,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 173.99 88.9 0)
+		(lib_id "power:-BATT")
+		(at 124.46 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ee933632-e9d0-449d-9e3c-3a0d6b2d4359")
-		(property "Reference" "#PWR095"
-			(at 173.99 93.98 0)
+		(uuid "dab42388-1783-403a-bf46-ed17a0d484de")
+		(property "Reference" "#PWR0107"
+			(at 124.46 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1917,8 +2207,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDPWR"
-			(at 173.863 92.71 0)
+		(property "Value" "-BATT"
+			(at 124.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1926,7 +2216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 90.17 0)
+			(at 124.46 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1935,7 +2225,143 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 90.17 0)
+			(at 124.46 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 124.46 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49045f25-a802-40d0-9e51-ecd81b7d70ed")
+		)
+		(instances
+			(project ""
+				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/fef27ad3-eae6-49bb-8c5d-9629d20c8dec"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 124.46 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3727092-dec6-4d09-9279-d9153ce5bf75")
+		(property "Reference" "D10"
+			(at 127 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12V_Zener"
+			(at 127 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e393cd9-b67c-4a56-86e8-21696b299075")
+		)
+		(pin "2"
+			(uuid "301a6afa-9eba-4c7e-a97e-68965ec0f18a")
+		)
+		(instances
+			(project "chibarobo_board_2024"
+				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/fef27ad3-eae6-49bb-8c5d-9629d20c8dec"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 168.91 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee933632-e9d0-449d-9e3c-3a0d6b2d4359")
+		(property "Reference" "#PWR095"
+			(at 168.91 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 168.783 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1944,7 +2370,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 173.99 88.9 0)
+			(at 168.91 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1983,7 +2409,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "510"
+		(property "Value" "2.2k"
 			(at 127 72.3899 0)
 			(effects
 				(font

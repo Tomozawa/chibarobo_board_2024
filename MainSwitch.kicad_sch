@@ -775,13 +775,15 @@
 				)
 			)
 		)
-		(symbol "Transistor_FET:BUZ11"
-			(pin_names hide)
+		(symbol "SamacSys_Parts:IRFL014TRPBF"
+			(pin_names
+				(offset 0.762)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+				(at 21.59 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -789,8 +791,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BUZ11"
-				(at 5.08 0 0)
+			(property "Value" "IRFL014TRPBF"
+				(at 21.59 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -798,19 +800,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BUZ11.pdf"
-				(at 5.08 -3.81 0)
+			(property "Footprint" "SOT230P700X180-4N"
+				(at 21.59 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -819,7 +810,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "30A Id, 50V Vds, N-Channel Power MOSFET, TO-220"
+			(property "Datasheet" "https://www.vishay.com/docs/91191/sihfl014.pdf"
+				(at 21.59 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Vishay IRFL014TRPBF N-channel MOSFET Transistor, 2.7 A, 60 V, 3-Pin SOT-223"
 				(at 0 0 0)
 				(effects
 					(font
@@ -828,195 +829,90 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "N-Channel Power MOSFET"
-				(at 0 0 0)
+			(property "Description_1" "Vishay IRFL014TRPBF N-channel MOSFET Transistor, 2.7 A, 60 V, 3-Pin SOT-223"
+				(at 21.59 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?220*"
-				(at 0 0 0)
+			(property "Height" "1.8"
+				(at 21.59 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(symbol "BUZ11_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
+			(property "Manufacturer_Name" "Vishay"
+				(at 21.59 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
+					(justify left)
+					(hide yes)
 				)
 			)
-			(symbol "BUZ11_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
+			(property "Manufacturer_Part_Number" "IRFL014TRPBF"
+				(at 21.59 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "844-IRFL014TRPBF"
+				(at 21.59 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/IRFL014TRPBF?qs=I1ZA2VTqfvS7RXCvpt%252B0rg%3D%3D"
+				(at 21.59 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "IRFL014TRPBF"
+				(at 21.59 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/irfl014trpbf/vishay?region=nac"
+				(at 21.59 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "IRFL014TRPBF_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
 					(name "G"
 						(effects
 							(font
@@ -1033,9 +929,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "D_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1051,8 +947,8 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
+					(at 0 -5.08 0)
+					(length 5.08)
 					(name "S"
 						(effects
 							(font
@@ -1066,6 +962,38 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "D_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "IRFL014TRPBF_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 20.32 2.54) (xy 20.32 -7.62) (xy 5.08 -7.62) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -1974,13 +1902,19 @@
 		)
 	)
 	(junction
-		(at 149.86 139.7)
+		(at 138.43 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "370e49ee-9ec6-41dc-a4ea-3027e51b840d")
 	)
 	(junction
-		(at 143.51 139.7)
+		(at 119.38 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c805013-0354-4f53-9a0e-082f8cce53a0")
+	)
+	(junction
+		(at 132.08 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41db95f1-791f-449d-86f0-f55d45a05795")
@@ -1998,10 +1932,10 @@
 		(uuid "66c8bd48-10da-43ac-8ae7-b446e7028115")
 	)
 	(junction
-		(at 119.38 139.7)
+		(at 158.75 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "797a2288-ab79-403d-8068-3bf890a04324")
+		(uuid "699e7e3c-a84f-4556-854a-07b614e1963e")
 	)
 	(junction
 		(at 181.61 104.14)
@@ -2021,16 +1955,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 132.08) (xy 119.38 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06367249-5368-47d1-b916-e72284025e10")
-	)
-	(wire
-		(pts
 			(xy 74.93 147.32) (xy 81.28 147.32)
 		)
 		(stroke
@@ -2041,13 +1965,43 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 139.7) (xy 149.86 146.05)
+			(xy 140.97 143.51) (xy 143.51 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ea92d70-f4f6-4216-9585-ac532a2d03e4")
+	)
+	(wire
+		(pts
+			(xy 138.43 140.97) (xy 138.43 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2416309b-45f6-4a62-abbf-be5faf5e654d")
+	)
+	(wire
+		(pts
+			(xy 119.38 132.08) (xy 119.38 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "253eca42-03d1-4d7b-9cd2-c3bb1301c8e9")
+	)
+	(wire
+		(pts
+			(xy 168.91 134.62) (xy 158.75 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f0a93b-a8db-475d-bfce-46cdf01916ac")
 	)
 	(wire
 		(pts
@@ -2061,6 +2015,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 140.97) (xy 168.91 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53cbf867-9862-465f-9537-b60c652a7d95")
+	)
+	(wire
+		(pts
 			(xy 59.69 147.32) (xy 67.31 147.32)
 		)
 		(stroke
@@ -2071,7 +2035,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 139.7) (xy 151.13 139.7)
+			(xy 138.43 140.97) (xy 143.51 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2091,7 +2055,27 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 139.7) (xy 149.86 139.7)
+			(xy 140.97 134.62) (xy 140.97 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699e01a6-d173-40d3-acf3-5a2b35f083ef")
+	)
+	(wire
+		(pts
+			(xy 119.38 140.97) (xy 119.38 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de88ce9-764c-473e-864d-7ed9b7c286be")
+	)
+	(wire
+		(pts
+			(xy 132.08 140.97) (xy 138.43 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2101,7 +2085,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 139.7) (xy 128.27 139.7)
+			(xy 119.38 140.97) (xy 121.92 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2151,17 +2135,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 139.7) (xy 119.38 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b03d8839-1160-4b4e-a70c-cbe51d4a2c41")
-	)
-	(wire
-		(pts
-			(xy 143.51 153.67) (xy 143.51 157.48)
+			(xy 132.08 154.94) (xy 132.08 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2191,13 +2165,23 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 139.7) (xy 143.51 146.05)
+			(xy 132.08 140.97) (xy 132.08 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c7dcb463-1de0-4022-a8e4-e5fa249b5f4a")
+	)
+	(wire
+		(pts
+			(xy 140.97 134.62) (xy 158.75 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daaf8b84-e105-4c75-99c4-86f59493177e")
 	)
 	(wire
 		(pts
@@ -2221,7 +2205,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 139.7) (xy 143.51 139.7)
+			(xy 129.54 140.97) (xy 132.08 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2251,7 +2235,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 153.67) (xy 149.86 157.48)
+			(xy 138.43 154.94) (xy 138.43 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2261,7 +2245,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 144.78) (xy 158.75 157.48)
+			(xy 143.51 146.05) (xy 143.51 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2291,6 +2275,18 @@
 		)
 		(uuid "2d3a294d-9ab6-44f2-92dd-dbea07a978da")
 	)
+	(hierarchical_label "SAFE_+BATT"
+		(shape input)
+		(at 119.38 115.57 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "837cc41b-23be-4023-a128-922c801d172b")
+	)
 	(hierarchical_label "LOGPWR"
 		(shape input)
 		(at 59.69 147.32 180)
@@ -2305,7 +2301,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 139.7 270)
+		(at 125.73 140.97 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2314,7 +2310,7 @@
 		(fields_autoplaced yes)
 		(uuid "0270e363-8f22-4890-8019-24022578d48b")
 		(property "Reference" "R61"
-			(at 132.08 133.35 90)
+			(at 125.73 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2322,7 +2318,7 @@
 			)
 		)
 		(property "Value" "300"
-			(at 132.08 135.89 90)
+			(at 125.73 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2330,7 +2326,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 132.08 137.922 90)
+			(at 125.73 139.192 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2339,7 +2335,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 139.7 0)
+			(at 125.73 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2348,7 +2344,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 139.7 0)
+			(at 125.73 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,138 +2362,6 @@
 			(project ""
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/87bef607-8228-4982-a851-4bb1999413f0"
 					(reference "R61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 119.38 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09cb1309-13b3-4bc8-96a1-0f39b0037f76")
-		(property "Reference" "#PWR097"
-			(at 119.38 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 119.38 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 119.38 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f99c40ba-4999-4e58-b26a-6272a087361a")
-		)
-		(instances
-			(project ""
-				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/87bef607-8228-4982-a851-4bb1999413f0"
-					(reference "#PWR097")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 158.75 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a119fde-3777-4a72-ba62-f8d1f2c6738a")
-		(property "Reference" "#PWR0100"
-			(at 158.75 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 158.75 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 158.75 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a9d7675b-2e67-4d5b-b5fc-408ba4199b54")
-		)
-		(instances
-			(project ""
-				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/87bef607-8228-4982-a851-4bb1999413f0"
-					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -2531,7 +2395,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_5W_P5.08mm_Vertical_KathodeUp"
 			(at 142.24 119.38 0)
 			(effects
 				(font
@@ -2659,7 +2523,7 @@
 	)
 	(symbol
 		(lib_id "power:-BATT")
-		(at 143.51 157.48 180)
+		(at 132.08 158.75 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2668,7 +2532,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a3a7cf8-9808-48bc-be42-e76689750d99")
 		(property "Reference" "#PWR098"
-			(at 143.51 153.67 0)
+			(at 132.08 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2677,7 +2541,7 @@
 			)
 		)
 		(property "Value" "-BATT"
-			(at 143.51 162.56 0)
+			(at 132.08 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,7 +2549,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 157.48 0)
+			(at 132.08 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2694,7 +2558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 157.48 0)
+			(at 132.08 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2703,7 +2567,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 143.51 157.48 0)
+			(at 132.08 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2788,6 +2652,162 @@
 			(project ""
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/87bef607-8228-4982-a851-4bb1999413f0"
 					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:IRFL014TRPBF")
+		(at 143.51 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c128cf1-c32b-4766-b729-3b67ebf3a4cf")
+		(property "Reference" "Q14"
+			(at 156.21 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IRFL014TRPBF"
+			(at 156.21 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOT230P700X180-4N"
+			(at 165.1 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/91191/sihfl014.pdf"
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Vishay IRFL014TRPBF N-channel MOSFET Transistor, 2.7 A, 60 V, 3-Pin SOT-223"
+			(at 143.51 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Vishay IRFL014TRPBF N-channel MOSFET Transistor, 2.7 A, 60 V, 3-Pin SOT-223"
+			(at 165.1 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.8"
+			(at 165.1 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 165.1 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IRFL014TRPBF"
+			(at 165.1 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "844-IRFL014TRPBF"
+			(at 165.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/IRFL014TRPBF?qs=I1ZA2VTqfvS7RXCvpt%252B0rg%3D%3D"
+			(at 165.1 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "IRFL014TRPBF"
+			(at 165.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/irfl014trpbf/vishay?region=nac"
+			(at 165.1 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c7ffcb8-8bd4-4dda-b17d-0f1af6f45b67")
+		)
+		(pin "2"
+			(uuid "00bbaac8-cf95-410e-8b00-839185a2fc58")
+		)
+		(pin "4"
+			(uuid "187d57ff-a0ba-4068-99b1-771fb37128b0")
+		)
+		(pin "3"
+			(uuid "22a64311-ffb8-4727-b791-7b7576d70134")
+		)
+		(instances
+			(project ""
+				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/87bef607-8228-4982-a851-4bb1999413f0"
+					(reference "Q14")
 					(unit 1)
 				)
 			)
@@ -3003,7 +3023,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 149.86 149.86 0)
+		(at 138.43 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3012,7 +3032,7 @@
 		(fields_autoplaced yes)
 		(uuid "8bf10861-385b-4a5c-aed6-31cde03d32ff")
 		(property "Reference" "C19"
-			(at 153.67 148.5899 0)
+			(at 142.24 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3021,7 +3041,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 153.67 151.1299 0)
+			(at 142.24 152.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3030,7 +3050,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 150.8252 153.67 0)
+			(at 139.3952 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3039,7 +3059,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 149.86 0)
+			(at 138.43 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3048,7 +3068,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 149.86 149.86 0)
+			(at 138.43 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3073,7 +3093,7 @@
 	)
 	(symbol
 		(lib_id "power:-BATT")
-		(at 158.75 157.48 180)
+		(at 143.51 158.75 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3082,7 +3102,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0b7cf8b-8556-42a9-bfb6-14218dc4f1ae")
 		(property "Reference" "#PWR0101"
-			(at 158.75 153.67 0)
+			(at 143.51 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3091,7 +3111,7 @@
 			)
 		)
 		(property "Value" "-BATT"
-			(at 158.75 162.56 0)
+			(at 143.51 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3099,7 +3119,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 157.48 0)
+			(at 143.51 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3108,7 +3128,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 157.48 0)
+			(at 143.51 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,7 +3137,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 158.75 157.48 0)
+			(at 143.51 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,56 +3158,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BUZ11")
-		(at 156.21 139.7 0)
+		(lib_id "power:+BATT")
+		(at 158.75 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c5cb1ee9-3e38-47a2-a09e-ef819615a289")
-		(property "Reference" "Q14"
-			(at 162.56 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BUZ11"
-			(at 162.56 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 161.29 141.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BUZ11.pdf"
-			(at 161.29 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30A Id, 50V Vds, N-Channel Power MOSFET, TO-220"
-			(at 156.21 139.7 0)
+		(uuid "b7baaf9a-a372-43a1-a40a-549a6f983ecc")
+		(property "Reference" "#PWR097"
+			(at 158.75 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3195,19 +3176,48 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "7394256a-d298-436d-bdca-c8dcdfc219ed")
+		(property "Value" "+BATT"
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 158.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "889a40d3-0a62-44a6-aad1-fbeb0b32757a")
-		)
-		(pin "2"
-			(uuid "5017344a-bea1-4795-b71a-22bed837630e")
+			(uuid "5b9935af-5f94-468b-ad76-40654012693e")
 		)
 		(instances
-			(project "chibarobo_board_2024"
+			(project ""
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/87bef607-8228-4982-a851-4bb1999413f0"
-					(reference "Q14")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -3368,7 +3378,7 @@
 	)
 	(symbol
 		(lib_id "power:-BATT")
-		(at 149.86 157.48 180)
+		(at 138.43 158.75 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3377,7 +3387,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfbbcd14-96a3-4c8e-b976-cd6e92fa6954")
 		(property "Reference" "#PWR099"
-			(at 149.86 153.67 0)
+			(at 138.43 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3386,7 +3396,7 @@
 			)
 		)
 		(property "Value" "-BATT"
-			(at 149.86 162.56 0)
+			(at 138.43 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3394,7 +3404,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 157.48 0)
+			(at 138.43 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3403,7 +3413,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 157.48 0)
+			(at 138.43 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3412,7 +3422,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 149.86 157.48 0)
+			(at 138.43 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3434,7 +3444,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 143.51 149.86 270)
+		(at 132.08 151.13 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3443,7 +3453,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4a5188a-028a-45b8-8914-65593ffeac89")
 		(property "Reference" "D9"
-			(at 146.05 148.5899 90)
+			(at 134.62 149.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3452,7 +3462,7 @@
 			)
 		)
 		(property "Value" "12V_Zener"
-			(at 146.05 151.1299 90)
+			(at 134.62 152.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3461,7 +3471,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 143.51 149.86 0)
+			(at 132.08 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,7 +3480,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 149.86 0)
+			(at 132.08 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3479,7 +3489,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 143.51 149.86 0)
+			(at 132.08 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
