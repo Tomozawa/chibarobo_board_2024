@@ -1,0 +1,22 @@
+Circuit: * C:\Users\yudun\Documents\KiCad\8.0\projects\chibarobo_board_2024\EMS_with_override.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun Aug 25 06:32:59 2024
+Total elapsed time: 0.091 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 4178
+traniter = 4169
+tranpoints = 2068
+accept = 2062
+rejected = 6
+matrix size = 15
+fillins = 6
+solver = Normal
+Avg thread counts: 1.7/2.3/2.3/1.7
+Matrix Compiler1: 1.29 KB object code size  0.3/0.2/[0.1]
+Matrix Compiler2: 1.30 KB object code size  0.1/0.2/[0.1]
+
