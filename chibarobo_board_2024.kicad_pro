@@ -58,10 +58,10 @@
         "courtyards_overlap|167270001|92520001|1afa0305-ae9f-4754-952d-d6860c82d4e6|be3acb82-6b7c-4844-af8f-9737bfd144f2",
         "courtyards_overlap|167270001|95520001|be3acb82-6b7c-4844-af8f-9737bfd144f2|fb7abd06-f6a6-4d8a-a167-3287fc80d411",
         "courtyards_overlap|167270001|98520001|9850ff90-2e15-4192-8915-46cb6c4ed06f|be3acb82-6b7c-4844-af8f-9737bfd144f2",
-        "courtyards_overlap|168175381|69669774|be3acb82-6b7c-4844-af8f-9737bfd144f2|fa595502-1abb-4b44-85d1-14d5eb2edb2c",
-        "courtyards_overlap|168246675|61797921|3d55eeeb-f849-4b94-ae76-fc80036f029e|be3acb82-6b7c-4844-af8f-9737bfd144f2",
-        "courtyards_overlap|168825486|64924532|be3acb82-6b7c-4844-af8f-9737bfd144f2|ed3338b9-1c00-45b8-affb-16d9c2a0083e",
-        "courtyards_overlap|169608034|66523900|be3acb82-6b7c-4844-af8f-9737bfd144f2|cdf88b63-dc7c-43da-9c25-bd312513dcdb",
+        "courtyards_overlap|168298683|61449294|3d55eeeb-f849-4b94-ae76-fc80036f029e|be3acb82-6b7c-4844-af8f-9737bfd144f2",
+        "courtyards_overlap|168301807|70146854|be3acb82-6b7c-4844-af8f-9737bfd144f2|fa595502-1abb-4b44-85d1-14d5eb2edb2c",
+        "courtyards_overlap|168897285|65071275|be3acb82-6b7c-4844-af8f-9737bfd144f2|ed3338b9-1c00-45b8-affb-16d9c2a0083e",
+        "courtyards_overlap|169615673|66539514|cdf88b63-dc7c-43da-9c25-bd312513dcdb|be3acb82-6b7c-4844-af8f-9737bfd144f2",
         "courtyards_overlap|172270001|66520001|a20d9fb4-bc7c-48f0-aa39-e48078abb241|be3acb82-6b7c-4844-af8f-9737bfd144f2",
         "courtyards_overlap|172270744|61820150|3ff9279d-b66b-4b7f-9d33-bf146674c794|be3acb82-6b7c-4844-af8f-9737bfd144f2"
       ],
@@ -478,8 +478,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber_202408132105",
-      "pos_files": "",
+      "plot": "gerber_202408160612",
+      "pos_files": "./",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -489,7 +489,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "chibarobo_board_2024.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -506,13 +506,13 @@
       "fields_ordered": [
         {
           "group_by": false,
-          "label": "Reference",
+          "label": "Designator",
           "name": "Reference",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Value",
+          "group_by": false,
+          "label": "Comment",
           "name": "Value",
           "show": true
         },
@@ -520,7 +520,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -532,20 +532,98 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "説明",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Parts#",
+          "name": "JLCPCB Parts#",
           "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "リファレンス"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

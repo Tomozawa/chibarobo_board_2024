@@ -2352,6 +2352,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 125.73 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78341e2b-9102-4e37-839b-a0691860726e")
 		)
@@ -2432,6 +2441,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 142.24 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" ""
 			(at 142.24 119.38 0)
 			(effects
 				(font
@@ -2642,6 +2660,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 119.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a3afdeb4-143b-4c97-ad1b-ae4ef3b8e576")
 		)
@@ -2789,6 +2816,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" "C428746"
+			(at 143.51 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3000,6 +3036,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 163.83 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "87"
 			(uuid "06633eda-2a26-49cd-a848-28e9b7ba1483")
 		)
@@ -3068,6 +3113,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 138.43 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" ""
 			(at 138.43 151.13 0)
 			(effects
 				(font
@@ -3358,6 +3412,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" "C83447"
+			(at 81.28 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "df1ca833-609f-4a28-8593-c77cc8606f48")
 		)
@@ -3497,6 +3560,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" "C19077447"
+			(at 132.08 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a07b0e6d-ce19-442e-9a8e-694ea4a09c11")
 		)
@@ -3557,6 +3629,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 71.12 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" ""
 			(at 71.12 147.32 0)
 			(effects
 				(font

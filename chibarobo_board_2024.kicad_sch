@@ -2994,6 +2994,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 81.28 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4"
@@ -3248,6 +3257,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 71.12 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" ""
 			(at 71.12 144.78 0)
 			(effects
 				(font
@@ -3598,6 +3616,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 146.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "J330"
 			(uuid "8249916b-e29a-48ef-9b16-dc97bd55ff47")
 		)
@@ -3788,6 +3815,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 59.69 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4"
@@ -3844,6 +3880,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x14, script generated"
+			(at 201.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" ""
 			(at 201.93 86.36 0)
 			(effects
 				(font
@@ -3950,6 +3995,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 48.26 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" ""
 			(at 48.26 144.78 0)
 			(effects
 				(font

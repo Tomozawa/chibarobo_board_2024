@@ -1250,6 +1250,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 171.45 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cf11bc18-9cb7-457a-9123-e2442c10c435")
 		)
@@ -1452,6 +1461,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 107.95 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6fcbe605-2539-4f7f-8a50-68f3bf2f1d9e")
 		)
@@ -1504,7 +1522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://static.cytron.io/download/usr_attachment/2510%20connetor.pdf?_gl=1*7f6u52*_gcl_au*MTE4NDQzNjI3Ni4xNzIyNDg1NDIx"
 			(at 184.15 58.42 0)
 			(effects
 				(font
@@ -1513,7 +1531,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" "2600PS"
+			(at 184.15 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" ""
 			(at 184.15 58.42 0)
 			(effects
 				(font
@@ -1659,6 +1686,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 125.73 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "573524c0-e267-497a-b3c3-8e7cfe7fbe66")
 		)
@@ -1719,6 +1755,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 125.73 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" ""
 			(at 125.73 55.88 0)
 			(effects
 				(font
@@ -1795,6 +1840,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 215.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd267897-b4e3-4738-a615-8c225f863f67")
 		)
@@ -1856,7 +1910,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" "2600PS"
+			(at 45.72 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" ""
 			(at 45.72 58.42 0)
 			(effects
 				(font
@@ -1920,7 +1983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://static.cytron.io/download/usr_attachment/2510%20connetor.pdf?_gl=1*7f6u52*_gcl_au*MTE4NDQzNjI3Ni4xNzIyNDg1NDIx"
 			(at 138.43 58.42 0)
 			(effects
 				(font
@@ -1929,7 +1992,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" "2600PS"
+			(at 138.43 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" ""
 			(at 138.43 58.42 0)
 			(effects
 				(font
@@ -2011,6 +2083,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 77.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "89ad38bd-ed7e-4fcc-8b8c-265d9702ada5")
 		)
@@ -2071,6 +2152,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 171.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" ""
 			(at 171.45 55.88 0)
 			(effects
 				(font
@@ -2149,6 +2239,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 45.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d025ae5f-b668-41f9-a100-d631c31d451d")
 		)
@@ -2217,6 +2316,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 78.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4154c376-965d-4873-88c5-4a973dd63e6c")
 		)
@@ -2277,6 +2385,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 215.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" ""
 			(at 215.9 55.88 0)
 			(effects
 				(font
@@ -2799,7 +2916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://static.cytron.io/download/usr_attachment/2510%20connetor.pdf?_gl=1*7f6u52*_gcl_au*MTE4NDQzNjI3Ni4xNzIyNDg1NDIx"
 			(at 228.6 58.42 0)
 			(effects
 				(font
@@ -2808,7 +2925,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" "2600PS"
+			(at 228.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" ""
 			(at 228.6 58.42 0)
 			(effects
 				(font
@@ -2888,6 +3014,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 33.02 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89c0b53e-7833-4643-b9d9-bde2da8413f6")
 		)
@@ -2940,7 +3075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://static.cytron.io/download/usr_attachment/2510%20connetor.pdf?_gl=1*7f6u52*_gcl_au*MTE4NDQzNjI3Ni4xNzIyNDg1NDIx"
 			(at 91.44 58.42 0)
 			(effects
 				(font
@@ -2949,7 +3084,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" "2600PS"
+			(at 91.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" ""
 			(at 91.44 58.42 0)
 			(effects
 				(font
@@ -3029,6 +3173,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 78.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a1757ea-c1c7-4215-8863-5d1e8b959d66")
 		)
@@ -3089,6 +3242,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 33.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" ""
 			(at 33.02 58.42 0)
 			(effects
 				(font

@@ -1376,6 +1376,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 177.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "67f0e6f8-d88a-4ca8-bdef-c3e3ff386fef")
 		)
@@ -1525,6 +1534,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 170.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -1681,6 +1699,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" "C83447"
+			(at 86.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a3645836-7953-4a5d-9da0-74e5fd6c2a8c")
 		)
@@ -1746,6 +1773,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 76.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" ""
 			(at 76.2 115.57 0)
 			(effects
 				(font
@@ -1970,6 +2006,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" "C83447"
+			(at 171.45 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1ed8ab01-5962-4c61-bda5-e9ac77273ca6")
 		)
@@ -2173,6 +2218,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 66.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16bf3f8b-50bf-4d29-9289-fb1a3abe743e")
 		)
@@ -2309,6 +2363,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" "C19077447"
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e393cd9-b67c-4a56-86e8-21696b299075")
 		)
@@ -2437,6 +2500,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 124.46 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" ""
 			(at 124.46 71.12 0)
 			(effects
 				(font

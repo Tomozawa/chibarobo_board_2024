@@ -3793,6 +3793,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 134.62 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "609a2827-cd80-4e18-b794-50fe284e149f")
 		)
@@ -3889,6 +3898,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 43.18 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" ""
 			(at 43.18 109.22 0)
 			(effects
 				(font
@@ -4025,6 +4043,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 72.39 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" ""
 			(at 72.39 53.34 0)
 			(effects
 				(font
@@ -4433,6 +4460,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 162.56 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5c89404b-b171-48b5-be85-03602927fa2a")
 		)
@@ -4635,6 +4671,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 157.48 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5c89404b-b171-48b5-be85-03602927fa2b")
 		)
@@ -4694,6 +4739,15 @@
 			)
 		)
 		(property "Description" "Single Retriggerable Monostable Multivibrator, Low-Voltage CMOS"
+			(at 67.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" " C77273"
 			(at 67.31 111.76 0)
 			(effects
 				(font
@@ -4782,6 +4836,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 105.41 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" ""
 			(at 105.41 45.72 0)
 			(effects
 				(font
@@ -4924,6 +4987,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 171.45 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d86840e2-4850-4cda-af23-aaf720236ea4")
 		)
@@ -4984,6 +5056,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 46.99 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" ""
 			(at 46.99 129.54 0)
 			(effects
 				(font
@@ -5054,6 +5135,15 @@
 			)
 		)
 		(property "Description" "Dual LED, cathodes on pins 1 and 3"
+			(at 160.02 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" ""
 			(at 160.02 49.53 0)
 			(effects
 				(font
@@ -5136,6 +5226,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 33.02 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0e2dcf30-89c0-43a6-8e68-a5eced4748aa")
 		)
@@ -5198,6 +5297,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 227.33 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" ""
 			(at 227.33 72.39 0)
 			(effects
 				(font
@@ -5342,6 +5450,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 165.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e1cadb98-0504-4432-b8df-8101c377c640")
 		)
@@ -5404,6 +5521,15 @@
 			)
 		)
 		(property "Description" "Single Retriggerable Monostable Multivibrator, Low-Voltage CMOS"
+			(at 83.82 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" " C77273"
 			(at 83.82 54.61 0)
 			(effects
 				(font
@@ -5647,6 +5773,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" "C55509"
+			(at 146.05 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b48a7a63-028a-45ea-ad9a-f2a1ae07c5dc")
 		)
@@ -5720,6 +5855,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 151.13 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0b419c2d-fa51-4bad-a704-140a724190ae")
 		)
@@ -5780,6 +5924,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts#" ""
 			(at 88.9 106.68 0)
 			(effects
 				(font
