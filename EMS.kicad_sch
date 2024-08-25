@@ -2377,12 +2377,6 @@
 		)
 	)
 	(junction
-		(at 31.75 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a465e7d-e659-42bb-b667-ad87ca4fd030")
-	)
-	(junction
 		(at 140.97 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2473,12 +2467,6 @@
 		(uuid "e52506af-151c-4c76-9cc9-426f4069e11b")
 	)
 	(junction
-		(at 31.75 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eec1b940-ebb9-472d-8625-6e70fde55389")
-	)
-	(junction
 		(at 121.92 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2487,6 +2475,14 @@
 	(no_connect
 		(at 111.76 154.94)
 		(uuid "3ab50aee-af9c-46a7-983a-85bf278bd59d")
+	)
+	(no_connect
+		(at 35.56 161.29)
+		(uuid "675bc52e-9ea7-491b-a487-a6835582835e")
+	)
+	(no_connect
+		(at 35.56 163.83)
+		(uuid "c5707308-834d-43d3-9bdd-85b56655aa03")
 	)
 	(wire
 		(pts
@@ -2507,6 +2503,16 @@
 			(type default)
 		)
 		(uuid "03126280-df48-4ea8-8187-0320968154f6")
+	)
+	(wire
+		(pts
+			(xy 15.24 163.83) (xy 15.24 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f349c09-20c0-4917-a26d-59d1024cdc71")
 	)
 	(wire
 		(pts
@@ -2537,6 +2543,16 @@
 			(type default)
 		)
 		(uuid "1b6678e2-0dd2-4f3c-9390-21d2818d97c3")
+	)
+	(wire
+		(pts
+			(xy 25.4 140.97) (xy 25.4 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c83436c-96ff-4465-b73a-325cd0826bc2")
 	)
 	(wire
 		(pts
@@ -2720,23 +2736,13 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 148.59) (xy 31.75 148.59)
+			(xy 15.24 152.4) (xy 15.24 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e2ebc4c-959b-4046-a315-8642914e0710")
-	)
-	(wire
-		(pts
-			(xy 31.75 168.91) (xy 31.75 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6388d0db-8816-4a1b-af63-31551eb11fbe")
+		(uuid "5f2b2cf7-e4fd-4a8c-9138-e956bc07290f")
 	)
 	(wire
 		(pts
@@ -2790,16 +2796,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 140.97) (xy 31.75 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7166abfa-2559-4b09-9435-f5bf36205fe0")
-	)
-	(wire
-		(pts
 			(xy 78.74 173.99) (xy 78.74 185.42)
 		)
 		(stroke
@@ -2847,6 +2843,16 @@
 			(type default)
 		)
 		(uuid "785d8831-b3cd-4816-81dd-427d31e4dca9")
+	)
+	(wire
+		(pts
+			(xy 25.4 140.97) (xy 39.37 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e6a4e7-a06f-4999-849e-1ad7ca16aad7")
 	)
 	(wire
 		(pts
@@ -3020,6 +3026,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 152.4) (xy 15.24 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4788eae-4004-430a-b257-275882a13a66")
+	)
+	(wire
+		(pts
 			(xy 137.16 111.76) (xy 140.97 111.76)
 		)
 		(stroke
@@ -3160,6 +3176,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 171.45) (xy 25.4 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a5dc6b-fcb6-45f8-9cf2-16bdd3017801")
+	)
+	(wire
+		(pts
 			(xy 137.16 152.4) (xy 157.48 152.4)
 		)
 		(stroke
@@ -3167,16 +3193,6 @@
 			(type default)
 		)
 		(uuid "d14ff1b7-be80-4df3-abb9-cb1e66f3d614")
-	)
-	(wire
-		(pts
-			(xy 31.75 140.97) (xy 39.37 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d46d8d98-b96f-4c79-a1ed-65198998a096")
 	)
 	(wire
 		(pts
@@ -3210,13 +3226,13 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 168.91) (xy 31.75 168.91)
+			(xy 15.24 171.45) (xy 25.4 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e06e8419-96b7-4f5a-a1ef-60e2506e76a8")
+		(uuid "e114bf93-32bc-4403-bd4b-8fc627f7aa8a")
 	)
 	(wire
 		(pts
@@ -4856,7 +4872,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 177.8 0)
+		(at 25.4 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4865,7 +4881,7 @@
 		(fields_autoplaced yes)
 		(uuid "641bf742-ec7a-45d3-a6da-f8c3f16b20d1")
 		(property "Reference" "#PWR073"
-			(at 31.75 184.15 0)
+			(at 25.4 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4874,7 +4890,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 182.88 0)
+			(at 25.4 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4882,7 +4898,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 177.8 0)
+			(at 25.4 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4891,7 +4907,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 177.8 0)
+			(at 25.4 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4900,7 +4916,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 177.8 0)
+			(at 25.4 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5849,7 +5865,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:SKRPACE010")
-		(at 29.21 168.91 90)
+		(at 15.24 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5858,25 +5874,23 @@
 		(fields_autoplaced yes)
 		(uuid "92819d90-2de6-42e8-9ff5-648f6dbd7177")
 		(property "Reference" "S1"
-			(at 35.56 157.4799 90)
+			(at 25.4 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "SKRPACE010"
-			(at 35.56 160.0199 90)
+			(at 25.4 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:SMT_4.2X3.2_"
-			(at 26.67 152.4 0)
+			(at 31.75 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5886,7 +5900,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRP/SKRPACE010.html"
-			(at 29.21 152.4 0)
+			(at 31.75 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5896,7 +5910,7 @@
 			)
 		)
 		(property "Description" "Tactile Switches 4.2x3.2x2.5mm 260gf"
-			(at 29.21 168.91 0)
+			(at 15.24 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5905,7 +5919,7 @@
 			)
 		)
 		(property "Description_1" "Tactile Switches 4.2x3.2x2.5mm 260gf"
-			(at 31.75 152.4 0)
+			(at 31.75 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5915,7 +5929,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 34.29 152.4 0)
+			(at 31.75 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5925,7 +5939,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "ALPS Electric"
-			(at 36.83 152.4 0)
+			(at 31.75 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5935,7 +5949,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SKRPACE010"
-			(at 39.37 152.4 0)
+			(at 31.75 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5945,7 +5959,7 @@
 			)
 		)
 		(property "Mouser Part Number" "688-SKRPACE010"
-			(at 41.91 152.4 0)
+			(at 31.75 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5955,7 +5969,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKRPACE010?qs=dHDuPHwQO79W8iY66hDbLQ%3D%3D"
-			(at 44.45 152.4 0)
+			(at 31.75 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5965,7 +5979,7 @@
 			)
 		)
 		(property "Arrow Part Number" "SKRPACE010"
-			(at 46.99 152.4 0)
+			(at 31.75 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5975,7 +5989,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/skrpace010/alps-electric"
-			(at 49.53 152.4 0)
+			(at 31.75 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5985,7 +5999,7 @@
 			)
 		)
 		(property "JLCPCB Parts#" ""
-			(at 29.21 168.91 0)
+			(at 15.24 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6347,7 +6361,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "62"
+		(property "Value" "100"
 			(at 69.85 106.6799 0)
 			(effects
 				(font

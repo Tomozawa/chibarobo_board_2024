@@ -205,6 +205,8 @@
 	(net 123 "unconnected-(IC1-18-PadJ331)")
 	(net 124 "unconnected-(IC1-20-PadJ329)")
 	(net 125 "unconnected-(IC1-21-PadJ328)")
+	(net 126 "unconnected-(S1-Pad4)")
+	(net 127 "unconnected-(S1-Pad2)")
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "04a59bfd-ba66-4ba9-832c-1ca44ada739a")
@@ -268,6 +270,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f76f7e8-ceeb-441e-9dd1-eb49f071af2c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -567,6 +582,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "480634d4-2c31-47a5-ac4b-2c3191fcd5b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd/75aafdd7-a51b-4369-be77-c74ff8fd8596")
 		(sheetname "DCMotor")
@@ -780,6 +808,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd5b225e-9ca7-43d1-a263-1db0e4855170")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ef752bba-2aba-4124-bfe8-e31010cb4579/7b0446ad-c831-41ed-897e-b2c137d2f6b5")
 		(sheetname "Servo")
@@ -988,6 +1029,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "464cabf5-520a-48e5-a2fc-ad9a03c7a448")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1286,7 +1340,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://static.cytron.io/download/usr_attachment/2510%20connetor.pdf?_gl=1*7f6u52*_gcl_au*MTE4NDQzNjI3Ni4xNzIyNDg1NDIx"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1299,12 +1353,25 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" "2600PS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "22da0b7a-2267-431b-a88c-304b9ce12420")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63ccb7cf-67e2-427b-9100-c1328028792f")
 			(effects
 				(font
 					(size 1 1)
@@ -1448,6 +1515,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bdb775cd-cc9b-4ded-b10c-103fc1a4f844")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1665,6 +1745,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76e4f0d2-dff3-4049-ba89-99ef921a7961")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1aefbd96-f54d-40bc-a071-60ef9e91d979/e1a90ae6-a233-42e0-b741-05f3dfb23d0f")
 		(sheetname "ActuatorPowerSupply")
@@ -1852,7 +1945,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://static.cytron.io/download/usr_attachment/2510%20connetor.pdf?_gl=1*7f6u52*_gcl_au*MTE4NDQzNjI3Ni4xNzIyNDg1NDIx"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1865,12 +1958,25 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" "2600PS"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b6280657-45cb-4337-98b7-668c57f71749")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0cf7958-0c10-4569-a017-c858c68843c2")
 			(effects
 				(font
 					(size 1 1)
@@ -2014,6 +2120,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b4a76fe-0b31-4ffe-8ff0-acf1706c525e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2411,7 +2530,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://static.cytron.io/download/usr_attachment/2510%20connetor.pdf?_gl=1*7f6u52*_gcl_au*MTE4NDQzNjI3Ni4xNzIyNDg1NDIx"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2424,12 +2543,25 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" "2600PS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ccdaf6f4-ba4f-4f7c-ab38-2f582a0cb010")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "821881ab-8441-4add-8c3a-71bef48e8c55")
 			(effects
 				(font
 					(size 1 1)
@@ -2570,6 +2702,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f6a3ba8b-551d-4ef4-b0e1-93ba21c06b57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f301c78b-d65c-4c67-b11d-97d36fdcb77c")
 			(effects
 				(font
 					(size 1 1)
@@ -2728,6 +2873,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2235268a-0738-443f-8a01-43b54e929b72")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2994,6 +3152,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e3ee22c-d00a-4e2a-b16f-f6331c15bc89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1aefbd96-f54d-40bc-a071-60ef9e91d979/cc622fa1-5bca-4e27-b5f6-c270c27117f6")
 		(sheetname "ActuatorPowerSupply")
@@ -3203,6 +3374,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c90541a4-82ff-4c39-8f64-295ec8463cde")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3524,6 +3708,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts#" "C155455"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bccd514-75f5-476f-9757-5d0bbbd63de9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ef752bba-2aba-4124-bfe8-e31010cb4579/0a5211af-88fe-425c-baac-c65ad39d6ef0")
 		(sheetname "Servo")
 		(sheetfile "Servo.kicad_sch")
@@ -3783,6 +3980,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" "C5121290"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77358202-3366-4c0f-8cf3-3496fa8dd6c7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4100,6 +4310,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2aea2f4-6fb9-4b88-8f43-aeef2126300a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ef752bba-2aba-4124-bfe8-e31010cb4579/87a3227a-3400-4979-9579-d26cc7cce017")
 		(sheetname "Servo")
@@ -4309,6 +4532,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" "C5121290"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a674f86-8917-4f61-b2b2-eec941e3167a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4626,6 +4862,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "542bcd33-362e-4143-a271-f92e9c323f2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1aefbd96-f54d-40bc-a071-60ef9e91d979/0c2ae731-59c0-4710-a38a-e983b47b6ba9")
 		(sheetname "ActuatorPowerSupply")
@@ -4835,6 +5084,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f600d28-9c12-4fd5-aa9d-96e07241878b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5154,6 +5416,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts#" " C145524"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "072902b5-0419-4522-9bfe-f1fb25a63c5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/1aefbd96-f54d-40bc-a071-60ef9e91d979/e33588c9-5b30-4f81-b8ee-b337868d637a")
 		(sheetname "ActuatorPowerSupply")
 		(sheetfile "ActuatorPowerSupply.kicad_sch")
@@ -5411,6 +5686,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47b0e37b-6c06-437e-a544-6cbee24e3566")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5873,6 +6161,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f1ccd0c-d645-4d8b-86cd-c9fa87036858")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ef752bba-2aba-4124-bfe8-e31010cb4579/b1bf0656-a47c-4d54-af75-313110c3abb1")
 		(sheetname "Servo")
@@ -6151,6 +6452,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa5a002a-be01-4358-a139-289c85df2016")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/4cc548e8-547e-40c7-af05-940ca2065fc1")
 		(sheetname "ルート")
@@ -6260,6 +6574,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "299fb6fb-2501-4568-b3b1-d23ea063eb8a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6542,6 +6869,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4cafaea-73f6-418b-8136-be2bdf6c1d3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/b8309365-4e2c-4939-82da-854b3d20e896")
 		(sheetname "ルート")
@@ -6651,6 +6991,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c42bcd2-51e4-443e-bed6-d105117d0e40")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6927,7 +7280,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://static.cytron.io/download/usr_attachment/2510%20connetor.pdf?_gl=1*7f6u52*_gcl_au*MTE4NDQzNjI3Ni4xNzIyNDg1NDIx"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6940,12 +7293,25 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" "2600PS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "04451c41-3b9b-4365-9f6d-282c05931b80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80aa0ae9-6074-4e62-9325-c58d18de8867")
 			(effects
 				(font
 					(size 1 1)
@@ -7112,6 +7478,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ccf31739-0a84-48da-9a2e-63a7f4150895")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "307f4d7f-c720-4e91-a3f8-72322a8f8e67")
 			(effects
 				(font
 					(size 1 1)
@@ -7336,6 +7715,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a9f8551-0dd3-4587-a9df-f477e33b9666")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7638,6 +8030,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5903b797-b8f7-4137-8ad4-24a9855d168b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ef752bba-2aba-4124-bfe8-e31010cb4579/f91cc47c-347b-41b3-822b-45235eb1500c")
 		(sheetname "Servo")
@@ -7916,6 +8321,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8846956a-b465-426c-b2d9-4624f97935b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Heatsink_*")
 		(path "/1aefbd96-f54d-40bc-a071-60ef9e91d979/4c505b8a-cc77-4249-b874-584a26d6b264")
 		(sheetname "ActuatorPowerSupply")
@@ -8152,6 +8570,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "295ed9e7-0a3c-4d34-b235-fe6c71f22073")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8451,6 +8882,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9965964e-0843-422a-8d1f-128fbe67a8c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ef752bba-2aba-4124-bfe8-e31010cb4579/e9858fc8-edea-4092-a76a-e2ccb5ae03de")
 		(sheetname "Servo")
@@ -8725,6 +9169,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "562b743c-689a-48c9-9bee-22a94c6bee5c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9044,6 +9501,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts#" "C428746"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c004aa3-af68-4bdc-a04d-9a079aebae8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/87bef607-8228-4982-a851-4bb1999413f0/6c128cf1-c32b-4766-b729-3b67ebf3a4cf")
 		(sheetname "MainSwitch")
 		(sheetfile "MainSwitch.kicad_sch")
@@ -9314,6 +9784,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c86eb7b6-0777-48b3-b658-cb54cb2a885e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd/51a1f40a-a392-4295-8c60-c722bf2f72d8")
 		(sheetname "DCMotor")
@@ -9463,11 +9946,11 @@
 	(footprint "SamacSys_Parts:SMT_4.2X3.2_"
 		(layer "F.Cu")
 		(uuid "989e8d97-b934-4c75-a299-9b57d5fc63f7")
-		(at 111.5 53.5)
+		(at 112.001483 53.602024 -90)
 		(descr "SMT(4.2x3.2)")
 		(tags "Switch")
 		(property "Reference" "S1"
-			(at -0.23333 -0.0507 0)
+			(at -0.23333 -0.0507 90)
 			(layer "F.SilkS")
 			(uuid "31a69061-8364-40f6-ac5a-48a6dfbfaaa8")
 			(effects
@@ -9478,7 +9961,7 @@
 			)
 		)
 		(property "Value" "SKRPACE010"
-			(at -0.23333 -0.0507 0)
+			(at -0.23333 -0.0507 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1242d073-e5cb-473d-9fa5-a050470c6427")
@@ -9490,7 +9973,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:SMT_4.2X3.2_"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "72770059-bb19-4728-a83d-b995ad5a4494")
@@ -9502,7 +9985,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRP/SKRPACE010.html"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c1f279c8-e286-495f-807d-8231baf3e2bf")
@@ -9514,7 +9997,7 @@
 			)
 		)
 		(property "Description" "Tactile Switches 4.2x3.2x2.5mm 260gf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "53229c1d-3a18-448c-8ad2-e24808fb80a4")
@@ -9526,7 +10009,7 @@
 			)
 		)
 		(property "Description_1" "Tactile Switches 4.2x3.2x2.5mm 260gf"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9539,7 +10022,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9552,7 +10035,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "ALPS Electric"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9565,7 +10048,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SKRPACE010"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9578,7 +10061,7 @@
 			)
 		)
 		(property "Mouser Part Number" "688-SKRPACE010"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9591,7 +10074,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKRPACE010?qs=dHDuPHwQO79W8iY66hDbLQ%3D%3D"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9604,7 +10087,7 @@
 			)
 		)
 		(property "Arrow Part Number" "SKRPACE010"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9617,11 +10100,24 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/skrpace010/alps-electric"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "35028599-b13c-4846-a37d-6e2b49963994")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "383a8861-1695-407b-ace6-28d77e33fd34")
 			(effects
 				(font
 					(size 1 1)
@@ -9634,14 +10130,14 @@
 		(sheetfile "EMS.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -2.1 -1.6)
-			(end 2.1 -1.6)
+			(start 2.1 1.6)
+			(end -2.1 1.6)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4883f9ab-a5e8-44a5-b2e8-cab7b326f7b1")
+			(uuid "430889db-bbd6-4af6-adc6-041124e3a563")
 		)
 		(fp_line
 			(start -2.1 -0.5)
@@ -9664,14 +10160,14 @@
 			(uuid "9be7d7a2-f14d-4c05-aa5d-89a2787a19ad")
 		)
 		(fp_line
-			(start 2.1 1.6)
-			(end -2.1 1.6)
+			(start -2.1 -1.6)
+			(end 2.1 -1.6)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "430889db-bbd6-4af6-adc6-041124e3a563")
+			(uuid "4883f9ab-a5e8-44a5-b2e8-cab7b326f7b1")
 		)
 		(fp_circle
 			(center -2.906 -1.089)
@@ -9685,16 +10181,6 @@
 			(uuid "baaec7ff-3f52-4bab-b9b5-7733abab4f7b")
 		)
 		(fp_line
-			(start -2.1 -1.6)
-			(end 2.1 -1.6)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "08be98ed-4e1f-4ac1-b65f-92318a5f2dd7")
-		)
-		(fp_line
 			(start -2.1 1.6)
 			(end -2.1 -1.6)
 			(stroke
@@ -9703,16 +10189,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "11a01d26-5e6b-435d-9012-31cec8ab95ee")
-		)
-		(fp_line
-			(start 2.1 -1.6)
-			(end 2.1 1.6)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d2dfa4c0-0c40-423e-82b1-209e62aa339e")
 		)
 		(fp_line
 			(start 2.1 1.6)
@@ -9724,8 +10200,28 @@
 			(layer "F.Fab")
 			(uuid "e9080115-ec91-499e-b918-5b8f616efec1")
 		)
+		(fp_line
+			(start -2.1 -1.6)
+			(end 2.1 -1.6)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "08be98ed-4e1f-4ac1-b65f-92318a5f2dd7")
+		)
+		(fp_line
+			(start 2.1 -1.6)
+			(end 2.1 1.6)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d2dfa4c0-0c40-423e-82b1-209e62aa339e")
+		)
 		(fp_text user "${REFERENCE}"
-			(at -0.23333 -0.0507 0)
+			(at -0.23333 -0.0507 90)
 			(layer "F.Fab")
 			(uuid "9c79934b-53b4-48c7-a907-12c7b988c1b7")
 			(effects
@@ -9736,25 +10232,25 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.075 -1.075 90)
+			(at -2.075 -1.075)
 			(size 0.65 1.05)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 15 "GND")
+			(net 75 "Net-(IC5-1A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "d4b38300-4e3a-47c0-bb6c-eff6fb7b0026")
 		)
 		(pad "2" smd rect
-			(at 2.075 -1.075 90)
+			(at 2.075 -1.075)
 			(size 0.65 1.05)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 75 "Net-(IC5-1A)")
+			(net 127 "unconnected-(S1-Pad2)")
 			(pinfunction "2")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "7b540b2b-2036-4e93-9925-0a24cae661d1")
 		)
 		(pad "3" smd rect
-			(at -2.075 1.075 90)
+			(at -2.075 1.075)
 			(size 0.65 1.05)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 15 "GND")
@@ -9763,12 +10259,12 @@
 			(uuid "bc1455f0-a3b3-44fd-9df0-1bb2bababc95")
 		)
 		(pad "4" smd rect
-			(at 2.075 1.075 90)
+			(at 2.075 1.075)
 			(size 0.65 1.05)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 75 "Net-(IC5-1A)")
+			(net 126 "unconnected-(S1-Pad4)")
 			(pinfunction "4")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "1f6a8b79-486d-42fe-b15a-744f90a0010d")
 		)
 		(model "C:\\Users\\yudun\\Documents\\KiCad\\8.0\\3rdparty\\LibraryLoader\\SamacSys_Parts.3dshapes\\SKRPACE010.stp"
@@ -9846,6 +10342,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50bf859f-3b8c-462f-9493-c643421802b5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10063,6 +10572,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0812a512-21af-49ef-bf1c-00897181eb01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/b86b417e-ea04-4638-b534-693254a329fe")
 		(sheetname "PowerSupply")
@@ -10272,6 +10794,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb045d85-f1b4-4fa6-91ee-13de9ff3c1a6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10584,6 +11119,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a783a959-5e96-42fe-b7fe-84c795e0ed2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" "C83447"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91943ca5-695b-4fbf-95bd-8f3892740ccb")
 			(effects
 				(font
 					(size 1 1)
@@ -10936,6 +11484,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2eedd6d6-a064-4185-b1af-2bb00670318b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e670b6f8-5ebf-48b0-baf0-dd240b8caa67")
 			(effects
 				(font
 					(size 1 1)
@@ -11779,12 +12340,25 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" "2600PS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d6ea75af-7317-4292-a798-4ef734d341f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "610b28b9-fb8d-486f-9025-7bd2e9d96324")
 			(effects
 				(font
 					(size 1 1)
@@ -11932,6 +12506,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6963a1ca-1bbc-4453-9ce3-2f88f16c52c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/0befb244-ef7e-41c5-acfc-5dc44450e004")
 		(sheetname "ルート")
@@ -12041,6 +12628,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1213ce63-433c-4cde-be05-0d88d2192ce9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12254,6 +12854,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a20e7bf5-71d6-4f87-b150-00e0c0fc48b7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12669,6 +13282,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts#" "C155455"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32bb7072-fa9e-4a25-8fd6-3e09f6f4cf3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ef752bba-2aba-4124-bfe8-e31010cb4579/1a952e9b-c543-4c93-bea9-777f30e78c0c")
 		(sheetname "Servo")
 		(sheetfile "Servo.kicad_sch")
@@ -12928,6 +13554,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2dcba35-be16-4db5-b4ba-bc363c59f365")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13230,6 +13869,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a34a6b05-11d5-4922-b30f-a372257e25ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1aefbd96-f54d-40bc-a071-60ef9e91d979/4b2cfe9f-60f5-41a3-b4b1-40c722fc14fa")
 		(sheetname "ActuatorPowerSupply")
@@ -13439,6 +14091,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f239f6bd-a455-4b22-b1e8-81b51392aa0c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13656,6 +14321,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07057419-97f0-4e99-9ba7-627d21f82120")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/d095c17c-cc65-4ccb-a0ea-f9663e3ea278")
 		(sheetname "ルート")
@@ -13765,6 +14443,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68afede1-242b-4f6b-8763-a0356e974a4d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -14047,6 +14738,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fef5f230-a333-470e-a736-3602700e4922")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ef752bba-2aba-4124-bfe8-e31010cb4579/60742f7d-9eec-44b3-97ba-6ae432efadba")
 		(sheetname "Servo")
@@ -14256,6 +14960,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3387e6de-db87-4994-b231-02ab0732cdf8")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -14502,6 +15219,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "491f555f-9997-4830-98ea-42a1a5994f01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ef752bba-2aba-4124-bfe8-e31010cb4579/39240ccb-9ea1-4adb-b605-aeb37f1b3bcd")
 		(sheetname "Servo")
@@ -14715,6 +15445,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42c17883-4dc8-4762-882f-d2f313f108aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ef752bba-2aba-4124-bfe8-e31010cb4579/15074be9-4757-4d18-9a94-01a6449c13da")
 		(sheetname "Servo")
@@ -14924,6 +15667,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89a82a86-15b8-471e-b558-5509b00532c4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15146,6 +15902,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4efd497d-3e03-4328-ace6-0ec616f71497")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1aefbd96-f54d-40bc-a071-60ef9e91d979/e03227ab-a0cd-4cf3-882b-a6714aed15d5")
 		(sheetname "ActuatorPowerSupply")
@@ -15360,6 +16130,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9850759e-49c9-4237-943a-3271b72e78b6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -15696,6 +16480,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" "C155455"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a1090eba-ddb6-49bd-b928-2a340263c79e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/ef752bba-2aba-4124-bfe8-e31010cb4579/16bbe390-a1a6-478c-9291-f62f7fa90863")
 		(sheetname "Servo")
 		(sheetfile "Servo.kicad_sch")
@@ -15965,6 +16763,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a5c9dace-33c6-4a2a-bc22-0b321cf9c9de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/1ea03e67-7ca0-42f1-9eaf-66d0fbab2c48")
 		(sheetname "PowerSupply")
@@ -16184,6 +16996,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1f887bd4-e482-4ea0-b7a6-f32055cd149c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/b1a79de5-687b-49d3-9656-69f23293985f/44934b84-6118-43c9-9b10-0fb2bbcf2ee7")
 		(sheetname "EMS")
@@ -16398,6 +17224,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "802b915f-08e2-4977-a1c5-408a44d594c0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -16732,6 +17572,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "844ff6d4-b25f-4fef-b632-b87379a6024f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/b1a79de5-687b-49d3-9656-69f23293985f/61a0af40-0220-4e1e-ab63-695df9d7af4d")
 		(sheetname "EMS")
 		(sheetfile "EMS.kicad_sch")
@@ -17028,6 +17882,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "21249f1a-000c-4d14-b60d-937864fa4c32")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -18887,6 +19755,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "97c32e84-2f07-4596-9b97-f225d66c653b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/fef27ad3-eae6-49bb-8c5d-9629d20c8dec/02d651f3-ae9b-459d-9b89-bc2e0fcf5f4c")
 		(sheetname "SoftStart")
 		(sheetfile "SoftStart.kicad_sch")
@@ -19147,6 +20029,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f616717f-0729-4f0c-bf2d-01680a75072c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -21358,6 +22254,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" "C155455"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7d2f76c2-af89-4223-8e7d-e3731d95b293")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/b1a79de5-687b-49d3-9656-69f23293985f/90c573b1-a2de-4b9a-bc9b-71614b381792")
 		(sheetname "EMS")
 		(sheetfile "EMS.kicad_sch")
@@ -21627,6 +22537,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c11e4e02-3378-4578-bc75-8813172277f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/87bef607-8228-4982-a851-4bb1999413f0/0270e363-8f22-4890-8019-24022578d48b")
 		(sheetname "MainSwitch")
@@ -21841,6 +22765,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "452755aa-0990-4fd6-8779-9ceef69ffb1f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -22065,6 +23003,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7f0d5875-fc5b-49e7-b90f-9c825096418a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ef752bba-2aba-4124-bfe8-e31010cb4579/eb855be4-87f6-4c6a-b1fe-36992d57dce9")
 		(sheetname "Servo")
@@ -22279,6 +23231,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" "C5121290"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3e91adca-ddf5-40eb-9ddd-ee7cd84659cf")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -22603,6 +23569,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "78a7a81d-7eaa-4b3a-9643-7c263e4c9b45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1aefbd96-f54d-40bc-a071-60ef9e91d979/ed051fb7-32a9-48ad-9153-64acf414dcbe")
 		(sheetname "ActuatorPowerSupply")
@@ -22817,6 +23797,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "67888cf5-278b-485c-b694-5741b5a5f970")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -23041,6 +24035,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e0de4e9f-8c6e-4e5b-b643-67b4904a1943")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/b1a79de5-687b-49d3-9656-69f23293985f/c0b2f518-bafe-45e3-aaa8-e4f2c366b208")
 		(sheetname "EMS")
@@ -23255,6 +24263,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2d3cc9bf-7a5d-473e-a2a5-50f20049c928")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -23479,6 +24501,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0c7dbaa6-fdac-4808-9bfd-43a75ffc3d73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1aefbd96-f54d-40bc-a071-60ef9e91d979/505ef442-49a9-471c-95e0-74c30cf4510d")
 		(sheetname "ActuatorPowerSupply")
@@ -23693,6 +24729,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ae84f58d-fec1-43e1-accc-48a9f5cc41ff")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -24019,6 +25069,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "72546406-3316-4d9c-b506-c7fc753d32d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9d94ee3f-157a-465f-9735-54b829ba1045")
 			(effects
 				(font
 					(size 1 1)
@@ -24393,6 +25457,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "25a6af20-ce8e-4f77-b248-7265117532f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/b1a79de5-687b-49d3-9656-69f23293985f/5cb6e3eb-1b60-4b88-8460-aca11321970d")
 		(sheetname "EMS")
@@ -24612,6 +25690,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5243580f-713d-4df1-96a3-0349de3b9ef2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/b1a79de5-687b-49d3-9656-69f23293985f/09f63f2d-0824-4702-a843-b27de59395e4")
 		(sheetname "EMS")
@@ -24826,6 +25918,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3b46bab6-aaa8-42fe-b138-ac4cd9551e5d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -25162,6 +26268,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" "C155455"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "afa76fcc-3cb0-4312-bd7d-fd4ff9a9964c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/ef752bba-2aba-4124-bfe8-e31010cb4579/d7b09500-4643-4c54-bd4c-470f4b030000")
 		(sheetname "Servo")
 		(sheetfile "Servo.kicad_sch")
@@ -25431,6 +26551,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0548251b-1e9c-40ae-b6c6-75037038a0b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/87bef607-8228-4982-a851-4bb1999413f0/ec428b5c-61fc-4e72-b46e-d8d20e188530")
 		(sheetname "MainSwitch")
@@ -25645,6 +26779,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c4c09989-e374-4528-b2ab-9ff619099fd7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -25869,6 +27017,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e9bb8bb7-536b-4200-9af7-350bf3f62f94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ef752bba-2aba-4124-bfe8-e31010cb4579/31b6b511-116a-4b2f-b124-26be344460d7")
 		(sheetname "Servo")
@@ -26083,6 +27245,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2c32c865-af83-498d-bd42-e6596c482069")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -26307,6 +27483,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b63fc2cb-c190-4d20-ba32-eedec38c2017")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/fef27ad3-eae6-49bb-8c5d-9629d20c8dec/f85b6bd3-a5e3-4d07-8efe-9a07098a1181")
 		(sheetname "SoftStart")
@@ -26521,6 +27711,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" "C19077447"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4d35e500-80cf-4297-9601-87ada7d3658e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -26817,6 +28021,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f31dcbc0-f2f6-4767-94a7-64826c934a71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/b1a79de5-687b-49d3-9656-69f23293985f/2c88d6a3-57a7-4e21-b953-c4525e5e841d")
 		(sheetname "EMS")
@@ -27031,6 +28249,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ef471763-4231-49a6-b7ae-c2bbf0b45f85")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -27255,6 +28487,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d42ccfbf-324f-4f6b-bc6a-a03f8b164d17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/338f0b2b-f3b3-4adf-b19b-c3b1189d48a8")
 		(sheetname "PowerSupply")
@@ -27469,6 +28715,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" "C50704"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "baabe4aa-1e52-483d-9983-dc80c004a123")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -27765,6 +29025,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e0d04f23-8a64-412d-b886-d964355710fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/c467c9cc-8a2a-4740-84c8-ec6bd14699f6")
 		(sheetname "PowerSupply")
@@ -27979,6 +29253,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d51d46fe-90c7-402d-b1b5-160f54829fce")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -30078,6 +31366,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2f3d6b01-be2f-445b-bd22-e5fbee7debea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ef752bba-2aba-4124-bfe8-e31010cb4579/d3de1df2-b406-4fba-9031-01070508560f")
 		(sheetname "Servo")
@@ -30292,6 +31594,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" "C50704"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "914e5ce8-a541-4b25-b88a-094f056503df")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -30700,6 +32016,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" "C155455"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1b06e5c6-516a-4572-b66d-d4b167197131")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/ef752bba-2aba-4124-bfe8-e31010cb4579/12490803-b342-414e-98f4-930f975969b4")
 		(sheetname "Servo")
 		(sheetfile "Servo.kicad_sch")
@@ -30969,6 +32299,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "604b237a-9c1c-4897-b667-d80c743741ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ef752bba-2aba-4124-bfe8-e31010cb4579/76e17b93-e2ee-4bb2-8c2c-c202cee444ee")
 		(sheetname "Servo")
@@ -31183,6 +32527,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7fdc213a-1a5c-4f43-bdc6-2fc633343025")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -31407,6 +32765,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f7e09dea-d61a-4090-abf3-e638ccb82e78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1aefbd96-f54d-40bc-a071-60ef9e91d979/9dc9b00f-93f7-4700-9ee5-b8d106820eb7")
 		(sheetname "ActuatorPowerSupply")
@@ -31621,6 +32993,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" "C50704"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "30fc0951-7fe3-441d-921b-7391954ca552")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -31912,6 +33298,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cb1599b9-a420-48d5-8081-4e5a219cc1b5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -32246,6 +33646,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" "C83447"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "40295451-c832-452d-a729-f9441c6bae35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/87bef607-8228-4982-a851-4bb1999413f0/ccead0cd-b21d-47b8-ba36-2deea03e5ca0")
 		(sheetname "MainSwitch")
 		(sheetfile "MainSwitch.kicad_sch")
@@ -32502,6 +33916,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b1dbfaa6-f98d-4b45-aac3-f9081e83a582")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/87bef607-8228-4982-a851-4bb1999413f0/4d30a7ea-5b35-4fad-8421-8112cc9a5256")
 		(sheetname "MainSwitch")
@@ -32716,6 +34144,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "374d2fb0-b102-40c6-992f-62d57a5f69c7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -32940,6 +34382,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7ce2b256-87c6-4ce7-8ecd-2306af9f20e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/b1a79de5-687b-49d3-9656-69f23293985f/1901ff31-18f2-473e-ba62-76503d346be6")
 		(sheetname "EMS")
@@ -33159,6 +34615,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "25771989-dd5e-4139-880a-3467518271ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/960560cd-6cd0-41d4-aa8e-7d0b8b98b025")
 		(sheetname "PowerSupply")
@@ -33324,7 +34794,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "62"
+		(property "Value" "100"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "7a12bd9f-1f6e-4814-ab3d-f95831c48e7f")
@@ -33373,6 +34843,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bbf439c2-d135-4023-852d-fac08bc55db6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -33597,6 +35081,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7228c031-5ef4-4f3e-ab8d-3837de879253")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd/4f584845-1a4b-4437-8743-cde8ca1d45dd")
 		(sheetname "DCMotor")
@@ -33811,6 +35309,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" "C5121290"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bf35ce90-9eb7-4799-aa40-8e7d4ff8fdad")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -34130,6 +35642,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "05d7f721-ce70-4a9e-bf3d-bf75cfffb341")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -34464,6 +35990,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" "C83447"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "53ce1a02-1d61-4870-8165-394bd76e5d38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/fef27ad3-eae6-49bb-8c5d-9629d20c8dec/036a864c-6716-4958-816a-5dae005443ad")
 		(sheetname "SoftStart")
 		(sheetfile "SoftStart.kicad_sch")
@@ -34720,6 +36260,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c38af3fc-463b-4652-b638-b3b123622982")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd/65b4a5a2-f645-499a-89f2-597b00f0c755")
 		(sheetname "DCMotor")
@@ -34934,6 +36488,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9c0aa324-9db5-445d-bb03-3e6f37332532")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -35158,6 +36726,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d6828165-bde0-424b-90b6-e20b1e42e9e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "*Fuse*")
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/abb92dac-e46c-4d22-bdad-f21153e25d0c")
 		(sheetname "PowerSupply")
@@ -35372,6 +36954,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "383c9490-2b0f-46ff-9785-9f3852bfd3af")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -35596,6 +37192,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "48cc9079-e3f0-4a4f-9d88-457c17942e59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/10a4ce65-96c0-4b0e-ad7d-0749d3a88abd/7a56192f-1f20-4cb2-959a-e84bc1fe64be")
 		(sheetname "DCMotor")
@@ -35810,6 +37420,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7e0546fc-b264-4fcd-b699-cb3b10df2571")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -36034,6 +37658,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6103bddf-88d3-4209-b370-9a3b155dfd78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/b1a79de5-687b-49d3-9656-69f23293985f/79151657-b915-43d1-8033-191b7867495d")
 		(sheetname "EMS")
@@ -36248,6 +37886,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1d099010-3b18-4a6a-ae85-7cc9f0a6363d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -36472,6 +38124,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f44edcc8-ee1e-461c-84e0-139e8b7ea9fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1aefbd96-f54d-40bc-a071-60ef9e91d979/88050df4-2e22-4df1-98c2-84e077be65e5")
 		(sheetname "ActuatorPowerSupply")
@@ -36686,6 +38352,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6444a2f9-f99f-4935-bd70-21817fc4db86")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -37020,6 +38700,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" "C83447"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "83a45d2b-36ca-4e9d-8d4d-387aecaa3559")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/b1a79de5-687b-49d3-9656-69f23293985f/e0d17d6a-2efd-4233-bd73-cf8a39f16bdb")
 		(sheetname "EMS")
 		(sheetfile "EMS.kicad_sch")
@@ -37276,6 +38970,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4fe83dd6-e5c5-465f-b8a0-a7e7161bbdb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/b1a79de5-687b-49d3-9656-69f23293985f/f3e5944b-0f8f-4f78-8c34-300bddd79642")
 		(sheetname "EMS")
@@ -37495,6 +39203,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5e3ee789-96ce-43e6-9ff9-9ade31cbb7b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ef752bba-2aba-4124-bfe8-e31010cb4579/1296661c-30b9-401a-819c-5cd67e67f0df")
 		(sheetname "Servo")
@@ -37709,6 +39431,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" "C19077447"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fbf43908-3c13-4bac-9c44-51d89e6add7a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -38115,6 +39851,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7e71a667-9140-48b3-9394-9f323de4266f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/1aefbd96-f54d-40bc-a071-60ef9e91d979/622f9a56-5a92-4cd3-a14e-0cfef380f4d0")
 		(sheetname "ActuatorPowerSupply")
 		(sheetfile "ActuatorPowerSupply.kicad_sch")
@@ -38427,6 +40177,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "43feb309-4668-4ea7-bb7f-c402f2dbcdb6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/f5e901c3-560d-4cfc-b1eb-b531c1303f52")
 		(sheetname "PowerSupply")
@@ -38641,6 +40405,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" " C77273"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "91648ab0-b40f-4363-a536-bd9a5154aa6b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -38936,6 +40714,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" "C5121290"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cfcf1f3f-9b97-4611-a913-995900ad4e78")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -39260,6 +41052,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "18da4025-847c-4c25-b6f6-49e3484d1045")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/b1a79de5-687b-49d3-9656-69f23293985f/f2f4827e-0a81-4f09-92f1-2c1a37fb7174")
 		(sheetname "EMS")
@@ -39479,6 +41285,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "aa38f73f-ddf1-4c9d-88be-d17241e6fa82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1aefbd96-f54d-40bc-a071-60ef9e91d979/16270e4d-c5cf-4402-a033-db9262a71148")
 		(sheetname "ActuatorPowerSupply")
@@ -39693,6 +41513,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" "C5121290"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6c74cd7d-efe3-423a-98c4-13a16d844284")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -40012,6 +41846,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3cf454b3-db1b-4d20-94fe-6bb65a72b16f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -40346,6 +42194,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "aafc9370-6242-4706-9cdb-ac217f192e60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/1aefbd96-f54d-40bc-a071-60ef9e91d979/f7ac7984-48d5-40c0-a3f2-28d8d1b571b5")
 		(sheetname "ActuatorPowerSupply")
 		(sheetfile "ActuatorPowerSupply.kicad_sch")
@@ -40640,6 +42502,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "55f44f13-c3d4-40f6-84b2-7189a30723ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/fef27ad3-eae6-49bb-8c5d-9629d20c8dec/0a599d8c-e9c8-4e5f-9564-4bfedbdaa2ee")
 		(sheetname "SoftStart")
@@ -40854,6 +42730,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e56818c0-eb3e-4086-ab99-9e5e83882079")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -41180,6 +43070,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b78a55e9-6630-403a-a376-db3515432e3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" "C55509"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e8defe0e-5370-4b23-a1a5-1fd03cb074ad")
 			(effects
 				(font
 					(size 1 1)
@@ -41615,6 +43519,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "42f51d65-fb5d-4127-a2c3-0834973dd7d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/1aefbd96-f54d-40bc-a071-60ef9e91d979/a23146dc-739d-4aab-a151-36b27440d68c")
 		(sheetname "ActuatorPowerSupply")
 		(sheetfile "ActuatorPowerSupply.kicad_sch")
@@ -41909,6 +43827,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "939d94ab-dd47-4035-a415-9902cbacf391")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -42243,6 +44175,20 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Parts#" "C83447"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4aeb1d6f-eaf4-4040-857d-4491131101b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/a3ca3e3d-7f11-4e5a-900e-b192a8343e04/b1a79de5-687b-49d3-9656-69f23293985f/0bcf2776-60bc-4566-aaaa-3b76be1a7b8f")
 		(sheetname "EMS")
 		(sheetfile "EMS.kicad_sch")
@@ -42494,6 +44440,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Parts#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e3f5f136-e6d9-4d1e-94dc-b5a62aaee01e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -42915,6 +44875,16 @@
 		(uuid "0d1c4c51-849c-4b57-8d87-117f740478bb")
 	)
 	(gr_line
+		(start 105.548781 61.619741)
+		(end 107.542848 61.619741)
+		(stroke
+			(width 3)
+			(type default)
+		)
+		(layer "F.Mask")
+		(uuid "36456e55-3526-4e9f-beeb-fe45b3e08b4b")
+	)
+	(gr_line
 		(start 152.5 109.5)
 		(end 162 109.5)
 		(stroke
@@ -42975,24 +44945,14 @@
 		(uuid "ab226ee1-f7da-427d-b083-bb511b7b6729")
 	)
 	(gr_line
-		(start 120.660003 62.076941)
-		(end 105.519551 77.348123)
+		(start 105.474004 77.355823)
+		(end 107.094184 75.76057)
 		(stroke
 			(width 3)
 			(type default)
 		)
 		(layer "F.Mask")
-		(uuid "e65321cf-c2a2-4629-b2c5-7b1383c67934")
-	)
-	(gr_line
-		(start 127 61.671369)
-		(end 105.474633 61.612425)
-		(stroke
-			(width 3)
-			(type default)
-		)
-		(layer "F.Mask")
-		(uuid "fd02235a-18e3-407d-a349-9334ba800b90")
+		(uuid "e92f2624-6285-4341-a3a9-5eecf25bd164")
 	)
 	(gr_rect
 		(start 100 50)
@@ -43119,8 +45079,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Rev1"
-		(at 101 92.5 -90)
+	(gr_text "Rev1.1\n"
+		(at 101 92.5 270)
 		(layer "F.SilkS")
 		(uuid "17b8d12d-e84f-406f-91f0-bbbdba255e24")
 		(effects
@@ -47098,14 +49058,6 @@
 		(uuid "24871155-5b80-4620-85e9-cb9c445bec2a")
 	)
 	(segment
-		(start 109.425 52.425)
-		(end 109.425 52.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 15)
-		(uuid "13468e34-faf8-404f-9214-dd6301f35cd2")
-	)
-	(segment
 		(start 161.365 69.097472)
 		(end 161.365 69.25)
 		(width 0.2)
@@ -47122,14 +49074,6 @@
 		(uuid "219569d9-9aff-4de1-bef9-e19622a6538c")
 	)
 	(segment
-		(start 109.425 52.5)
-		(end 109.425 52.075)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 15)
-		(uuid "26d192c8-b9b8-4a6a-a597-6a0470268214")
-	)
-	(segment
 		(start 162.312472 68.15)
 		(end 161.365 69.097472)
 		(width 0.2)
@@ -47144,14 +49088,6 @@
 		(layer "F.Cu")
 		(net 15)
 		(uuid "40bf8391-3d64-4528-af4d-fb91ba313669")
-	)
-	(segment
-		(start 109.425 54.575)
-		(end 109.425 52.425)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 15)
-		(uuid "41ba1618-197f-4eab-8e4f-0d194bce14a4")
 	)
 	(segment
 		(start 160.876786 77.25)
@@ -47210,6 +49146,14 @@
 		(uuid "c3b3202e-e2f6-4d70-829e-c93dbf6e67b8")
 	)
 	(segment
+		(start 110 51.5)
+		(end 110.899459 51.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 15)
+		(uuid "c6c1be60-48cf-4430-b87a-0b7f74aebb36")
+	)
+	(segment
 		(start 167.5 63)
 		(end 166.802881 63.697119)
 		(width 0.2)
@@ -47234,6 +49178,14 @@
 		(uuid "ebac1048-181e-41c5-b904-aaa63e65bffb")
 	)
 	(segment
+		(start 110.899459 51.5)
+		(end 110.926483 51.527024)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 15)
+		(uuid "edfe0db5-7259-428c-88e3-dec67ea35752")
+	)
+	(segment
 		(start 158.619457 69.185143)
 		(end 159.6 70.165686)
 		(width 0.2)
@@ -47248,14 +49200,6 @@
 		(layer "F.Cu")
 		(net 15)
 		(uuid "f2247f72-4a2d-4a99-bfe2-9dd30bc5643c")
-	)
-	(segment
-		(start 109.425 52.075)
-		(end 110 51.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 15)
-		(uuid "f2a00a95-82e9-48ba-baa6-c669cc3133ae")
 	)
 	(segment
 		(start 159.6 70.165686)
@@ -51479,36 +53423,20 @@
 		(uuid "fd00ca5b-24a1-4925-b485-95f3f2836659")
 	)
 	(segment
-		(start 113.575 52.5)
-		(end 113.575 51.925)
+		(start 113.103507 51.5)
+		(end 113.076483 51.527024)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 75)
-		(uuid "3f3740f2-2dc6-44fc-8b25-b6a87df33679")
+		(uuid "15595699-89bc-470e-acf0-01c3a861b2d7")
 	)
 	(segment
-		(start 113.575 51.925)
-		(end 114 51.5)
+		(start 114 51.5)
+		(end 113.103507 51.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 75)
-		(uuid "5d1ca7de-8a65-469e-87c5-b41f6d795aea")
-	)
-	(segment
-		(start 113.575 52.425)
-		(end 113.575 54.575)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 75)
-		(uuid "868b6ec5-730c-4292-83d9-8a2980996836")
-	)
-	(segment
-		(start 113.575 52.425)
-		(end 113.575 52.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 75)
-		(uuid "f8c9ea65-e9f0-4e54-ba00-fe46a243324e")
+		(uuid "3ba2a843-7a4d-4aef-a12d-cbc479c727b5")
 	)
 	(via
 		(at 114 51.5)
