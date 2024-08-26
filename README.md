@@ -17,6 +17,8 @@
 <img src="./chibarobo_board_2024_back.png" alt="chibarobo_board_2024_back" width="640">
 <br>背面
 
+<img src="./terminal_description.jpg" alt="terminal_descrition" width="640">
+
 # マイコンボード
 本基板はESP32S2-DevKitM-1でアクチュエータ類を操作します。基板上のピンソケットに、シルクに描画されている向きに従ってESP32S2-DevKitM-1を差し込んでください。
 
@@ -42,8 +44,10 @@
 | 5V || ロジック電源で動く回路の電源 |
 | GND || ロジック電源で動く回路の共通電位 |
 
+42番ピンは、出力モードに**設定しない**でください。非常停止ボタンのオーバーライド機能が無効になったり、非常停止ボタンが扱われた際、リレーが遮断しなくなることがあります。
+
 # Cytron MD10C向けコントロールピン
-Cytron製モータードライバ「Cytron MD10C」向けのDIR/PWM/GNDピンを提供します。
+Cytron製モータードライバ「Cytron MD10C」向けのDIR/PWM/GNDピンを5チャンネル提供します。
 
 DIRピンのHigh/Low切り替えにより、回転方向を変化させます。
 
