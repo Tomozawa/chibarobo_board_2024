@@ -920,7 +920,7 @@
 				)
 			)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -937,7 +937,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+5V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -963,7 +963,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -981,7 +981,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+5V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1019,7 +1019,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2216,6 +2216,72 @@
 		(uuid "e8e818c4-1231-453f-87d6-85bc95ff7106")
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 207.01 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0197edaa-9200-4cf1-a46f-1352405673f4")
+		(property "Reference" "#PWR039"
+			(at 207.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 207.01 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 207.01 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc3c5649-80e1-471e-9577-7389cd4dd2e8")
+		)
+		(instances
+			(project ""
+				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 60.96 68.58 0)
 		(unit 1)
@@ -2579,72 +2645,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 243.84 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11a7e7f4-6d7a-4599-9855-467c0991dab1")
-		(property "Reference" "#PWR033"
-			(at 243.84 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 243.84 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 243.84 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56e39046-59aa-45a0-a357-4302a042a9a8")
-		)
-		(instances
-			(project ""
-				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SamacSys_Parts:2SA1162-GR_F_")
 		(at 87.63 115.57 0)
 		(mirror x)
@@ -2819,7 +2819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1296661c-30b9-401a-819c-5cd67e67f0df")
-		(property "Reference" "R16"
+		(property "Reference" "R15"
 			(at 100.33 99.0599 0)
 			(effects
 				(font
@@ -2882,7 +2882,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "R16")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -2898,7 +2898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15074be9-4757-4d18-9a94-01a6449c13da")
-		(property "Reference" "R24"
+		(property "Reference" "R23"
 			(at 226.06 43.18 90)
 			(effects
 				(font
@@ -2959,7 +2959,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "R24")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -3305,7 +3305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c65cb52-037e-4cfa-9ee6-f68f5263517a")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 251.46 54.61 0)
 			(effects
 				(font
@@ -3375,73 +3375,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 147.32 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d999f75-054f-4f9c-b710-67eb4e7ccc2c")
-		(property "Reference" "#PWR027"
-			(at 147.32 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 147.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 147.32 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56e39046-59aa-45a0-a357-4302a042a9a9")
-		)
-		(instances
-			(project ""
-				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "#PWR027")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -3457,7 +3391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26b14b8d-7e70-4213-8eba-3cde50452468")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 214.63 121.92 0)
 			(effects
 				(font
@@ -3527,7 +3461,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3609,7 +3543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2afc56cf-e159-429a-81d1-9a1da79b2182")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR049"
 			(at 273.05 74.93 0)
 			(effects
 				(font
@@ -3659,7 +3593,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "#PWR050")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -3675,7 +3609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31b6b511-116a-4b2f-b124-26be344460d7")
-		(property "Reference" "R18"
+		(property "Reference" "R17"
 			(at 129.54 44.45 90)
 			(effects
 				(font
@@ -3736,7 +3670,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "R18")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3752,7 +3686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36944b16-d173-45ec-a2c4-3626219479a5")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 53.34 53.34 0)
 			(effects
 				(font
@@ -3822,7 +3756,7 @@
 		(instances
 			(project ""
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3904,7 +3838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39240ccb-9ea1-4adb-b605-aeb37f1b3bcd")
-		(property "Reference" "R20"
+		(property "Reference" "R19"
 			(at 165.1 53.3399 0)
 			(effects
 				(font
@@ -3967,7 +3901,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "R20")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -4172,72 +4106,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 45.72 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ce75435-f052-4acd-9368-a66720cb505b")
-		(property "Reference" "#PWR021"
-			(at 45.72 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 45.72 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 45.72 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56e39046-59aa-45a0-a357-4302a042a9aa")
-		)
-		(instances
-			(project ""
-				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
 		(at 127 135.89 0)
 		(unit 1)
@@ -4313,7 +4181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5945b360-745c-4545-b2f9-f583a8a4307b")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 105.41 120.65 0)
 			(effects
 				(font
@@ -4383,7 +4251,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4465,7 +4333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60742f7d-9eec-44b3-97ba-6ae432efadba")
-		(property "Reference" "R21"
+		(property "Reference" "R20"
 			(at 189.23 110.49 90)
 			(effects
 				(font
@@ -4526,7 +4394,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "R21")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -4599,72 +4467,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 97.79 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "611a9500-87fe-4f0b-b760-546f1714d2f3")
-		(property "Reference" "#PWR045"
-			(at 97.79 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 97.79 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 97.79 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56e39046-59aa-45a0-a357-4302a042a9ab")
-		)
-		(instances
-			(project ""
-				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 243.84 69.85 0)
 		(unit 1)
@@ -4674,7 +4476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61ac3b90-c186-4e4a-9276-001036f90860")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR045"
 			(at 243.84 76.2 0)
 			(effects
 				(font
@@ -4724,7 +4526,73 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "#PWR046")
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 147.32 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "723df01d-bd3b-4da4-b7a8-9f0d86f903ad")
+		(property "Reference" "#PWR033"
+			(at 147.32 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 147.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 147.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc3c5649-80e1-471e-9577-7389cd4dd2e9")
+		)
+		(instances
+			(project ""
+				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4740,7 +4608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76e17b93-e2ee-4bb2-8c2c-c202cee444ee")
-		(property "Reference" "R13"
+		(property "Reference" "R12"
 			(at 48.26 31.7499 0)
 			(effects
 				(font
@@ -4803,7 +4671,7 @@
 		(instances
 			(project ""
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "R13")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4819,7 +4687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b0446ad-c831-41ed-897e-b2c137d2f6b5")
-		(property "Reference" "R23"
+		(property "Reference" "R22"
 			(at 224.79 119.3799 0)
 			(effects
 				(font
@@ -4882,7 +4750,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "R23")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -5030,7 +4898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87a3227a-3400-4979-9579-d26cc7cce017")
-		(property "Reference" "R22"
+		(property "Reference" "R21"
 			(at 209.55 100.3299 0)
 			(effects
 				(font
@@ -5093,7 +4961,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "R22")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -5175,7 +5043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8990dd67-1954-4dd9-927b-48c101276abd")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR047"
 			(at 259.08 74.93 0)
 			(effects
 				(font
@@ -5225,7 +5093,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "#PWR048")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -5298,6 +5166,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 243.84 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d4599a7-85c7-44d2-b32b-26eef80bb346")
+		(property "Reference" "#PWR0105"
+			(at 243.84 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 243.84 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 243.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af60aea3-c395-4ac9-a15a-c8e2c9d95d0c")
+		)
+		(instances
+			(project ""
+				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+7.5V")
 		(at 269.24 64.77 0)
 		(unit 1)
@@ -5307,7 +5241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "949681cd-9027-474f-b61f-cbc1f8ed18a5")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR048"
 			(at 269.24 68.58 0)
 			(effects
 				(font
@@ -5357,7 +5291,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "#PWR049")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -5373,7 +5307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c4e4e4f-d39e-4b3d-99f3-63a7ace30320")
-		(property "Reference" "R25"
+		(property "Reference" "R24"
 			(at 246.38 33.0199 0)
 			(effects
 				(font
@@ -5436,7 +5370,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "R25")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -5518,7 +5452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afed186a-f085-450a-ab32-c9728887292c")
-		(property "Reference" "R26"
+		(property "Reference" "R25"
 			(at 261.62 52.0699 0)
 			(effects
 				(font
@@ -5581,7 +5515,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "R26")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -5679,7 +5613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b632bef1-8e5f-4eeb-95e2-a1d029a9c209")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR046"
 			(at 259.08 49.53 0)
 			(effects
 				(font
@@ -5729,7 +5663,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "#PWR047")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -5745,7 +5679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9764f85-20c8-4b16-a58c-44e967ca342a")
-		(property "Reference" "R17"
+		(property "Reference" "R16"
 			(at 115.57 118.1099 0)
 			(effects
 				(font
@@ -5808,7 +5742,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "R17")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5824,7 +5758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bef20411-7ab9-4132-9812-4bf9992a9b5d")
-		(property "Reference" "R15"
+		(property "Reference" "R14"
 			(at 80.01 109.22 90)
 			(effects
 				(font
@@ -5885,7 +5819,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "R15")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -6049,7 +5983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3de1df2-b406-4fba-9031-01070508560f")
-		(property "Reference" "R12"
+		(property "Reference" "R11"
 			(at 27.94 41.91 90)
 			(effects
 				(font
@@ -6110,7 +6044,7 @@
 		(instances
 			(project ""
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "R12")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -6414,6 +6348,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 45.72 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1ee43d0-d6cf-4e73-888a-9fe6921791ec")
+		(property "Reference" "#PWR021"
+			(at 45.72 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 45.72 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 45.72 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc3c5649-80e1-471e-9577-7389cd4dd2ea")
+		)
+		(instances
+			(project ""
+				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 162.56 71.12 0)
 		(unit 1)
@@ -6571,7 +6571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb855be4-87f6-4c6a-b1fe-36992d57dce9")
-		(property "Reference" "R19"
+		(property "Reference" "R18"
 			(at 149.86 34.2899 0)
 			(effects
 				(font
@@ -6634,7 +6634,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "R19")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -6805,6 +6805,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 97.79 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb1a9fbf-c0f8-460c-ae3f-c628566049aa")
+		(property "Reference" "#PWR027"
+			(at 97.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 97.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 97.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc3c5649-80e1-471e-9577-7389cd4dd2eb")
+		)
+		(instances
+			(project ""
+				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 60.96 52.07 0)
 		(unit 1)
@@ -6814,7 +6880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc8054c4-c14a-44f7-bab8-06ecbb053e3c")
-		(property "Reference" "R14"
+		(property "Reference" "R13"
 			(at 63.5 50.7999 0)
 			(effects
 				(font
@@ -6877,73 +6943,7 @@
 		(instances
 			(project ""
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 207.01 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "feae90ad-0633-41ae-ac04-d15915845f60")
-		(property "Reference" "#PWR039"
-			(at 207.01 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 207.01 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 207.01 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56e39046-59aa-45a0-a357-4302a042a9ac")
-		)
-		(instances
-			(project ""
-				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "#PWR039")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6959,7 +6959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffd7098d-1524-4403-b9b2-2139e0957302")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 154.94 55.88 0)
 			(effects
 				(font
@@ -7029,7 +7029,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
