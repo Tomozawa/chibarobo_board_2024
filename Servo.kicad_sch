@@ -3543,7 +3543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2afc56cf-e159-429a-81d1-9a1da79b2182")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR050"
 			(at 273.05 74.93 0)
 			(effects
 				(font
@@ -3593,7 +3593,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "#PWR049")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -4476,7 +4476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61ac3b90-c186-4e4a-9276-001036f90860")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR046"
 			(at 243.84 76.2 0)
 			(effects
 				(font
@@ -4526,7 +4526,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "#PWR045")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -5043,7 +5043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8990dd67-1954-4dd9-927b-48c101276abd")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR048"
 			(at 259.08 74.93 0)
 			(effects
 				(font
@@ -5093,7 +5093,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "#PWR047")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -5175,7 +5175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d4599a7-85c7-44d2-b32b-26eef80bb346")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR045"
 			(at 243.84 31.75 0)
 			(effects
 				(font
@@ -5225,7 +5225,7 @@
 		(instances
 			(project ""
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "#PWR0105")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -5241,7 +5241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "949681cd-9027-474f-b61f-cbc1f8ed18a5")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 269.24 68.58 0)
 			(effects
 				(font
@@ -5291,7 +5291,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -5613,7 +5613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b632bef1-8e5f-4eeb-95e2-a1d029a9c209")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR047"
 			(at 259.08 49.53 0)
 			(effects
 				(font
@@ -5663,7 +5663,7 @@
 		(instances
 			(project "chibarobo_board_2024"
 				(path "/7933aef9-9608-4ce1-b0d8-a4ffd3b998e4/ef752bba-2aba-4124-bfe8-e31010cb4579"
-					(reference "#PWR046")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
