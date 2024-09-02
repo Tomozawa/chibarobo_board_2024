@@ -20,6 +20,8 @@
 <img src="./terminal_description.jpg" alt="terminal_descrition" width="640">
 
 # マイコンボード
+要変更
+
 本基板はESP32S2-DevKitM-1でアクチュエータ類を操作します。基板上のピンソケットに、シルクに描画されている向きに従ってESP32S2-DevKitM-1を差し込んでください。
 
 各種アクチュエータ/センサとマイコンボードのピンアサインは以下のとおりです。
