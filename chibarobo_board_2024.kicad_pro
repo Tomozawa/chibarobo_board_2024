@@ -53,17 +53,19 @@
       },
       "diff_pair_dimensions": [],
       "drc_exclusions": [
-        "courtyards_overlap|167270001|86520001|be3acb82-6b7c-4844-af8f-9737bfd144f2|dd671b0c-8503-45e9-ad84-424be94b6639",
-        "courtyards_overlap|167270001|89520001|0d600091-9788-4001-8ca7-11d0aeb2a988|be3acb82-6b7c-4844-af8f-9737bfd144f2",
-        "courtyards_overlap|167270001|92520001|1afa0305-ae9f-4754-952d-d6860c82d4e6|be3acb82-6b7c-4844-af8f-9737bfd144f2",
-        "courtyards_overlap|167270001|95520001|be3acb82-6b7c-4844-af8f-9737bfd144f2|fb7abd06-f6a6-4d8a-a167-3287fc80d411",
-        "courtyards_overlap|167270001|98520001|9850ff90-2e15-4192-8915-46cb6c4ed06f|be3acb82-6b7c-4844-af8f-9737bfd144f2",
-        "courtyards_overlap|168298683|61449294|3d55eeeb-f849-4b94-ae76-fc80036f029e|be3acb82-6b7c-4844-af8f-9737bfd144f2",
-        "courtyards_overlap|168301807|70146854|be3acb82-6b7c-4844-af8f-9737bfd144f2|fa595502-1abb-4b44-85d1-14d5eb2edb2c",
-        "courtyards_overlap|168897285|65071275|be3acb82-6b7c-4844-af8f-9737bfd144f2|ed3338b9-1c00-45b8-affb-16d9c2a0083e",
-        "courtyards_overlap|169615673|66539514|be3acb82-6b7c-4844-af8f-9737bfd144f2|cdf88b63-dc7c-43da-9c25-bd312513dcdb",
-        "courtyards_overlap|172270001|66520001|a20d9fb4-bc7c-48f0-aa39-e48078abb241|be3acb82-6b7c-4844-af8f-9737bfd144f2",
-        "courtyards_overlap|172270744|61820150|3ff9279d-b66b-4b7f-9d33-bf146674c794|be3acb82-6b7c-4844-af8f-9737bfd144f2"
+        "courtyards_overlap|167270001|77520001|a4e903b2-c113-4e38-95d6-fc362abafaec|be3acb82-6b7c-4844-af8f-9737bfd144f2",
+        "courtyards_overlap|167270001|80520001|8ce5f122-d09c-4eed-98af-77b0a2a9c153|be3acb82-6b7c-4844-af8f-9737bfd144f2",
+        "courtyards_overlap|167270001|83520001|a0ff2c5b-73ea-4dfa-bd11-6d67909ec0e8|be3acb82-6b7c-4844-af8f-9737bfd144f2",
+        "courtyards_overlap|167270001|86520001|a3787e83-4d24-42f0-8e22-b1d8e2a6a9da|be3acb82-6b7c-4844-af8f-9737bfd144f2",
+        "courtyards_overlap|167270001|89520001|b29c5f17-c63f-450d-9694-376485b11f71|be3acb82-6b7c-4844-af8f-9737bfd144f2",
+        "courtyards_overlap|168450001|54200001|be3acb82-6b7c-4844-af8f-9737bfd144f2|c0ab7b61-4534-4697-8231-b972c2226d2b",
+        "courtyards_overlap|168520001|67270001|855d837b-f83b-4d08-99c8-dac35fb6f01e|be3acb82-6b7c-4844-af8f-9737bfd144f2",
+        "courtyards_overlap|168520001|69270001|715116b1-7982-4d49-96b2-94632ee6d0ec|be3acb82-6b7c-4844-af8f-9737bfd144f2",
+        "courtyards_overlap|170062858|63200001|0579e285-9481-4d49-8972-c4f403b7844d|be3acb82-6b7c-4844-af8f-9737bfd144f2",
+        "courtyards_overlap|172100001|65200001|be3acb82-6b7c-4844-af8f-9737bfd144f2|dde90ccb-a6a6-4ae3-abef-342e00c0d0ba",
+        "courtyards_overlap|172450001|56200001|a6a477cf-8952-4e54-baf3-be01e1588f27|be3acb82-6b7c-4844-af8f-9737bfd144f2",
+        "courtyards_overlap|176270001|60020001|be3acb82-6b7c-4844-af8f-9737bfd144f2|def0ce23-a2f0-46d4-9d9a-898e2b1e8b74",
+        "courtyards_overlap|176270001|63020001|8513f5d7-8432-4254-a3d8-347a3c6c51d6|be3acb82-6b7c-4844-af8f-9737bfd144f2"
       ],
       "meta": {
         "version": 2
