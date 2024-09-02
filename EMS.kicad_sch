@@ -4828,7 +4828,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Parts#" ""
+		(property "JLCPCB Parts#" "C5156512"
 			(at 111.76 152.4 0)
 			(effects
 				(font

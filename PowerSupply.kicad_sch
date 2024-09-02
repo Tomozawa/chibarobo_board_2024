@@ -811,23 +811,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 5.715 0)
+			(property "Reference" "D2"
+				(at 1.1431 -6.35 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "LED_Dual_KAKA"
-				(at 0 -6.35 0)
+			(property "Value" "VLMKG3400"
+				(at -1.3969 -6.35 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
 				(at 0.762 0 0)
 				(effects
 					(font
@@ -836,7 +838,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.vishay.com/docs/81359/vlmkg34.pdf"
 				(at 0.762 0 0)
 				(effects
 					(font
@@ -846,6 +848,15 @@
 				)
 			)
 			(property "Description" "Dual LED, cathodes on pins 1 and 3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Parts#" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1007,9 +1018,9 @@
 			)
 			(symbol "LED_Dual_KAKA_1_1"
 				(pin input line
-					(at -7.62 2.54 0)
-					(length 3.048)
-					(name "A1"
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "AR"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1025,9 +1036,9 @@
 					)
 				)
 				(pin input line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "K1"
+					(at -7.62 2.54 0)
+					(length 3.048)
+					(name "CR"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1043,9 +1054,9 @@
 					)
 				)
 				(pin input line
-					(at -7.62 -2.54 0)
-					(length 3.048)
-					(name "A2"
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "AG"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1061,9 +1072,9 @@
 					)
 				)
 				(pin input line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "K2"
+					(at -7.62 -2.54 0)
+					(length 3.048)
+					(name "CG"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3802,7 +3813,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Parts#" ""
+		(property "JLCPCB Parts#" "C5381644"
 			(at 134.62 107.95 0)
 			(effects
 				(font
@@ -4469,7 +4480,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Parts#" ""
+		(property "JLCPCB Parts#" "C150049"
 			(at 162.56 66.04 0)
 			(effects
 				(font
@@ -4680,7 +4691,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Parts#" ""
+		(property "JLCPCB Parts#" "C150049"
 			(at 157.48 66.04 0)
 			(effects
 				(font
@@ -5152,7 +5163,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Parts#" ""
+		(property "JLCPCB Parts#" "C5224081"
 			(at 160.02 49.53 0)
 			(effects
 				(font
