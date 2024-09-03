@@ -76,7 +76,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "gerber_202408160612")
+			(outputdirectory "gerber_202409031152")
 		)
 	)
 	(net 0 "")
@@ -1258,7 +1258,7 @@
 		)
 		(fp_arc
 			(start 16 -2.2)
-			(mid 15.263944 0.453214)
+			(mid 15.263943 0.453213)
 			(end 13.316806 2.4)
 			(stroke
 				(width 0.12)

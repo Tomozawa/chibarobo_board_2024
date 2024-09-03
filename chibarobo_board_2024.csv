@@ -124,7 +124,7 @@
 "R54","5.6k","Resistor_SMD:R_0603_1608Metric",""
 "R55","1k","Resistor_SMD:R_0603_1608Metric",""
 "R56","2.2k","Resistor_SMD:R_0603_1608Metric",""
-"R57","1.3","Resistor_SMD:R_1206_3216Metric",""
+"R57","1.3","Resistor_SMD:R_1206_3216Metric","C4048845"
 "R58","10k","Resistor_SMD:R_0603_1608Metric",""
 "R59","1.3k","Resistor_SMD:R_0603_1608Metric",""
 "R60","300","Resistor_SMD:R_0603_1608Metric",""
