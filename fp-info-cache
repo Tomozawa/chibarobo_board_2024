@@ -1,4 +1,4 @@
-23617751302231061
+23631557387841463
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88781,6 +88781,13 @@ Zener Diode
 2
 2
 SamacSys_Parts
+SOIC127P600X170-9N
+P-HSOP8-0405-1.27-002*
+Integrated Circuit
+0
+9
+9
+SamacSys_Parts
 SOIC127P600X175-8N
 SOIC-8 NB CASE 751-07 ISSUE AK
 Integrated Circuit
@@ -96649,6 +96656,13 @@ Varistor VF
 2
 2
 original
+2MS3-T1-B4-M2-Q-E
+
+
+0
+3
+3
+original
 60B104C_correct
 60B104C-1
 Inductor
@@ -96669,6 +96683,13 @@ BH-321-2P
 0
 2
 2
+original
+BPUE16
+
+
+0
+0
+0
 original
 BPUE56
 
@@ -96712,6 +96733,13 @@ PDPMAA1712-101MP
 2
 2
 original
+Relay_HSINDA_946Series
+
+
+0
+6
+4
+original
 SLO1365H470MTT
 
 
@@ -96725,6 +96753,20 @@ ScrewTerminalBlock_1727023
 0
 3
 3
+original
+TCV-471M-2.5A-5026
+Inductor
+
+0
+2
+2
+original
+TCV-471M-9A-8026
+
+
+0
+2
+2
 original
 TS18-5-17-SL-160-SMT-TR
 
@@ -96746,3 +96788,17 @@ V23134J1052D642
 0
 4
 4
+original
+XT60_DIP
+
+
+0
+6
+2
+original
+jumper_W12.7mm_H15.24mm
+
+
+0
+2
+2
